@@ -5,63 +5,98 @@
 ## १. User र System जानकारी
 
 **sudo su** — Administrator (root) प्रयोगकर्तामा switch गर्न प्रयोग हुन्छ। यसले तपाईंलाई सम्पूर्ण अधिकार दिन्छ (जस्तै Windows मा "Run as Administrator")।
+
+Command:
 ```
 sudo su
+```
+Output:
+```
 [Password]: तपाईंको password हाल्नुहोस्
 ```
 
 **whoami** — अहिले कुन user ले login गरेको छ भनेर देखाउँछ।
+
+Command:
 ```
-$ whoami
+whoami
+```
+Output:
+```
 saroj
 ```
 
 **pwd** (Print Working Directory) — अहिले तपाईं कुन folder मा हुनुहुन्छ भनेर देखाउँछ।
+
+Command:
 ```
-$ pwd
+pwd
+```
+Output:
+```
 /home/saroj
 ```
 
 ## २. Folder हेर्ने र जाने
 
 **ls** — हालको folder भित्रका file/folder हरूको list देखाउँछ।
+
+Command:
 ```
-$ ls
+ls
+```
+Output:
+```
 Documents  Downloads  Pictures
 ```
 
 **ls -l** — Detail सहित list (permission, size, date, owner)।
+
+Command:
 ```
-$ ls -l
+ls -l
+```
+Output:
+```
 drwxr-xr-x 2 saroj saroj 4096 Aug 10 10:00 Documents
 ```
 
 **ls -a** — Hidden file हरू (जसको नाम `.` बाट सुरु हुन्छ) समेत देखाउँछ।
+
+Command:
 ```
-$ ls -a
+ls -a
+```
+Output:
+```
 .  ..  .bashrc  Documents
 ```
 
 **ls -c** — File को change time (metadata परिवर्तन भएको समय) अनुसार sort गरेर देखाउँछ।
 
 **cd <directory>** — अर्को folder मा जान (Change Directory)।
+
+Command:
 ```
-$ cd Documents
+cd Documents
 ```
 
-**cd ..** — "अघिल्लो (parent) folder" मा फर्कन प्रयोग हुन्छ।
+**cd ..** — "अघिल्लो (parent) folder" मा फर्कन प्रयोग हुन्छ। यसले एक तह माथिको folder मा लैजान्छ।
+
+Command:
 ```
-$ cd ..
+cd ..
 ```
-यसले एक तह माथिको folder मा लैजान्छ।
 
 **cd /** — Root directory मा जान प्रयोग हुन्छ। (Windows मा root drive जान `cd\` प्रयोग हुन्छ, तर Linux मा भने root मा जान `cd /` लेखिन्छ)।
 
 ## ३. File हेर्ने
 
 **cat <file_name>** — File को सम्पूर्ण content एकैचोटि screen मा देखाउँछ।
+
+Command:
 ```
-$ cat notes.txt
+cat notes.txt
 ```
 
 **more <file_name>** — ठूलो file लाई page-by-page (एक screen जति) देखाउँछ, Space थिचेर अगाडि जान सकिन्छ। यसमा पछाडि फर्किन मिल्दैन।
@@ -71,65 +106,93 @@ $ cat notes.txt
 ## ४. File/Folder बनाउने र सम्पादन गर्ने
 
 **touch <file_name>** — खाली नयाँ file बनाउँछ (वा existing file भए timestamp मात्र update गर्छ)।
+
+Command:
 ```
-$ touch notes.txt
+touch notes.txt
 ```
 
 **nano <file_name>** — Terminal भित्रैको सजिलो text editor, file खोल्न/सम्पादन गर्न प्रयोग हुन्छ। Save गर्न `Ctrl+O`, बाहिर निस्कन `Ctrl+X`।
+
+Command:
 ```
-$ nano notes.txt
+nano notes.txt
 ```
 
 **mv <file_name> <destination>** — File सार्न (move) प्रयोग हुन्छ। गन्तव्य folder दिनुपर्छ।
+
+Command:
 ```
-$ mv notes.txt Documents/
+mv notes.txt Documents/
 ```
 
 **cp <file_name> <destination>** — File copy गर्न। गन्तव्य दिनुपर्छ।
+
+Command:
 ```
-$ cp notes.txt Documents/notes_backup.txt
+cp notes.txt Documents/notes_backup.txt
 ```
 
 **mv <original_file_name> <new_file_name>** — यही `mv` कमाण्डले नाम पनि बदल्न सकिन्छ (rename)।
+
+Command:
 ```
-$ mv old.txt new.txt
+mv old.txt new.txt
 ```
 
 **mkdir <directory>** — नयाँ folder बनाउँछ (Make Directory)।
+
+Command:
 ```
-$ mkdir Projects
+mkdir Projects
 ```
 
 ## ५. मेटाउने
 
 **rm <file_name>** — File मेटाउँछ (सावधान: Recycle Bin मा जाँदैन, सिधै delete हुन्छ)।
+
+Command:
 ```
-$ rm notes.txt
+rm notes.txt
 ```
 
 **rmdir <directory>** — खाली folder मेटाउँछ। भित्र केही भए काम गर्दैन (त्यसका लागि `rm -r` चाहिन्छ)।
+
+Command:
 ```
-$ rmdir EmptyFolder
+rmdir EmptyFolder
 ```
 
 ## ६. जानकारी र खोज
 
 **stat <file_name>** — File को विस्तृत जानकारी (size, permission, created/modified time) देखाउँछ।
+
+Command:
 ```
-$ stat notes.txt
+stat notes.txt
 ```
 
 **echo "<text>"** — Screen मा text print गर्छ। Script मा message देखाउन धेरै प्रयोग हुन्छ। File मा content लेख्न पनि प्रयोग हुन्छ।
-```
-$ echo "Hello Nepal"
-Hello Nepal
 
-$ echo "data" > file.txt
+Command:
+```
+echo "Hello Nepal"
+```
+Output:
+```
+Hello Nepal
+```
+
+File मा content लेख्न:
+```
+echo "data" > file.txt
 ```
 
 **grep "<text>" <file_name>** — File भित्र specific शब्द/text खोज्न प्रयोग हुन्छ।
+
+Command:
 ```
-$ grep "error" logfile.txt
+grep "error" logfile.txt
 ```
 
 ## ७. System Update गर्ने (Ubuntu/Debian based)
@@ -145,16 +208,16 @@ $ grep "error" logfile.txt
 
 `&&` को अर्थ हो — अघिल्लो command सफल भयो भने मात्र अर्को चल्छ।
 
-## ८. `less` को Important Keys
+## ८. **less** को Important Keys
 
-| Key | काम |
-|---|---|
-| `q` | Exit गर्न |
-| `Space` | अर्को page |
-| `b` | अघिल्लो page |
-| `↑` | एक line माथि |
-| `↓` | एक line तल |
-| `g` | File को सुरुमा जान |
-| `G` | File को अन्त्यमा जान |
-| `/word` | "word" खोज्न (forward search) |
-| `n` | अर्को search result मा जान |
+| Key    | काम   |
+|--------|--------|
+| q | Exit गर्न |
+| Space | अर्को page |
+| b | अघिल्लो page |
+| ↑ | एक line माथि |
+| ↓ | एक line तल |
+| g | File को सुरुमा जान |
+| G | File को अन्त्यमा जान |
+| /word | "word" खोज्न (forward search) |
+| n | अर्को search result मा जान |
