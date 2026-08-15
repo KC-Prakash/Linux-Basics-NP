@@ -11,7 +11,9 @@ Command:
 sudo su
 ```
 Output:
+```
 [Password]: तपाईंको password हाल्नुहोस्
+```
 
 
 **whoami** — अहिले कुन user ले login गरेको छ भनेर देखाउँछ।
@@ -21,7 +23,9 @@ Command:
 whoami
 ```
 Output:
+```
 saroj
+```
 
 
 **pwd** (Print Working Directory) — अहिले तपाईं कुन folder मा हुनुहुन्छ भनेर देखाउँछ।
