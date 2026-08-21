@@ -1,6 +1,124 @@
-# Linux 491 Commands — Category-wise Nepali Quick Guide
+# 🐧 Linux Command Course
 
-> **Source:** संलग्न `linux.pdf` मा रहेका 491 Linux commands को सूची र category structure लाई आधार बनाइएको छ। PDF ले command को छोटो उद्देश्य/description दिन्छ; तलका **Example** र **Output** हरू सिकाइका लागि तयार गरिएका representative/illustrative examples हुन्, त्यसैले वास्तविक output Linux distribution, version, user, file, hardware र configuration अनुसार फरक हुन सक्छ।
+नेपाली भाषामा Linux Commands सिक्ने Practical Course।
+
+## 📚 Course Content
+
+### 1. Basic File & Directory Operations
+- `pwd`
+- `ls`
+- `cd`
+- `mkdir`
+- `touch`
+- `cp`
+- `mv`
+- `rm`
+- ...
+
+### 2. Text Processing
+- `cat`
+- `grep`
+- `sed`
+- `awk`
+- `cut`
+- `sort`
+- `uniq`
+- ...
+
+### 3. System Monitoring
+- `ps`
+- `top`
+- `htop`
+- `free`
+- `df`
+- `du`
+- ...
+
+### 4. User & Permission
+- `sudo`
+- `su`
+- `whoami`
+- `id`
+- `chmod`
+- `chown`
+- ...
+
+### 5. Networking
+- `ip`
+- `ping`
+- `curl`
+- `wget`
+- `ssh`
+- `scp`
+- `ss`
+- ...
+
+### 6. Disk & Filesystem
+- `mount`
+- `umount`
+- `fdisk`
+- `mkfs`
+- `fsck`
+- `dd`
+- ...
+
+### 7. Compression & Archiving
+- `tar`
+- `gzip`
+- `gunzip`
+- `zip`
+- `unzip`
+- ...
+
+### 8. Process Management
+- `kill`
+- `pkill`
+- `jobs`
+- `bg`
+- `fg`
+- `nohup`
+- ...
+
+### 9. System Configuration
+- `systemctl`
+- `journalctl`
+- `crontab`
+- `timedatectl`
+- ...
+
+### 10. ⭐ Daily Use Commands
+दैनिक Linux/Ubuntu Server मा प्रयोग हुने practical commands।
+
+---
+
+## 🎯 Learning Goal
+
+यो course पूरा गरेपछि learner ले:
+
+- Linux terminal confidently प्रयोग गर्न
+- File/Directory manage गर्न
+- User & permission manage गर्न
+- Process monitor/manage गर्न
+- Network troubleshoot गर्न
+- Server manage गर्न
+- Logs हेर्न
+- SSH प्रयोग गर्न
+- Backup/archive बनाउन
+- Basic Linux administration गर्न
+
+सक्नेछ।
+
+## 📝 Format
+
+प्रत्येक command मा:
+
+- Command
+- नेपालीमा संक्षिप्त जानकारी
+- Syntax / Example
+- Sample Output
+- Practical Use
+
+समावेश गरिएको छ।
 
 ## 📌 कसरी प्रयोग गर्ने
 - `Command` = चलाउने command
