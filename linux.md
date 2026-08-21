@@ -27,7 +27,7 @@
 **Commands 1–52 (52 commands)**
 
 ### 1. `ls`
-**संक्षिप्त जानकारी:** the Linux ls command and its practical applications for managing files and directories. Learn how to utilize various options to retrieve detailed file information and navigate directory structures effectively.
+**संक्षिप्त जानकारी:** हालको directory भित्रका file र folder हरूको सूची देखाउँछ।
 
 **Example:**
 ```bash
@@ -42,7 +42,7 @@ drwxr-xr-x ... .
 ```
 
 ### 2. `cd`
-**संक्षिप्त जानकारी:** the Linux cd command, learn how to navigate the file system, and understand the difference between relative and absolute paths.
+**संक्षिप्त जानकारी:** एक directory बाट अर्को directory मा जान प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -55,7 +55,7 @@ No output; the working directory changes.
 ```
 
 ### 3. `pwd`
-**संक्षिप्त जानकारी:** the Linux pwd command, its purpose, and practical examples of using it with other commands to manage files and directories.
+**संक्षिप्त जानकारी:** अहिले काम गरिरहेको directory को पूरा path देखाउँछ।
 
 **Example:**
 ```bash
@@ -68,7 +68,7 @@ pwd
 ```
 
 ### 4. `mkdir`
-**संक्षिप्त जानकारी:** the mkdir command in Linux, learn how to create directories, manage permissions, and work with nested directories through practical examples.
+**संक्षिप्त जानकारी:** नयाँ directory बनाउन प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -81,7 +81,7 @@ No output; directory 'projects' is created.
 ```
 
 ### 5. `touch`
-**संक्षिप्त जानकारी:** the versatile Linux touch command to create new files, modify file timestamps, and manage file operations efficiently. Gain practical experience through hands-on examples.
+**संक्षिप्त जानकारी:** नयाँ खाली file बनाउन वा file को timestamp अद्यावधिक गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -94,7 +94,7 @@ No output; 'notes.txt' is created if it does not exist.
 ```
 
 ### 6. `cp`
-**संक्षिप्त जानकारी:** the versatile Linux cp command through practical examples. Learn how to copy files, directories, and preserve file attributes and timestamps effectively.
+**संक्षिप्त जानकारी:** file वा directory को प्रतिलिपि बनाउन प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -107,7 +107,7 @@ No output; 'backup.txt' is created.
 ```
 
 ### 7. `mv`
-**संक्षिप्त जानकारी:** the Linux mv command and learn how to rename files, move multiple files, and perform other file management tasks with practical examples.
+**संक्षिप्त जानकारी:** file/folder सार्न वा नाम परिवर्तन गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -120,7 +120,7 @@ No output; the file is renamed.
 ```
 
 ### 8. `rm`
-**संक्षिप्त जानकारी:** the Linux rm command with practical examples. Learn how to remove files and directories, handle confirmation prompts, and force removal for efficient file management.
+**संक्षिप्त जानकारी:** file वा directory हटाउन प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -133,7 +133,7 @@ No output when the file is removed successfully.
 ```
 
 ### 9. `ln`
-**संक्षिप्त जानकारी:** the ln command in Linux, learn how to create hard and symbolic links, and understand their practical applications through hands-on examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -146,7 +146,7 @@ No output; a symbolic link is created.
 ```
 
 ### 10. `cat`
-**संक्षिप्त जानकारी:** the versatile Linux cat command through practical examples. Learn to concatenate and display text files, as well as append content to existing files, enhancing your basic file and directory operations skills.
+**संक्षिप्त जानकारी:** file को सामग्री terminal मा देखाउँछ।
 
 **Example:**
 ```bash
@@ -159,7 +159,7 @@ Hello Linux
 ```
 
 ### 11. `less`
-**संक्षिप्त जानकारी:** the less command, a powerful text viewer for Linux. Learn how to navigate through text files, search and highlight content, and utilize less effectively for your daily tasks.
+**संक्षिप्त जानकारी:** ठूलो file लाई सजिलै scroll गरेर पढ्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -172,7 +172,7 @@ Interactive pager opens; press q to quit.
 ```
 
 ### 12. `more`
-**संक्षिप्त जानकारी:** the versatile more command in Linux, learn how to navigate and search through text files, and customize its behavior for efficient file viewing.
+**संक्षिप्त जानकारी:** ठूलो text file लाई page अनुसार पढ्न मद्दत गर्छ।
 
 **Example:**
 ```bash
@@ -185,7 +185,7 @@ Hello Linux
 ```
 
 ### 13. `tree`
-**संक्षिप्त जानकारी:** the Linux tree command, a powerful tool for visualizing directory structures. Learn its basic options, and apply it to specific directories and files for practical use cases.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -199,7 +199,7 @@ demo
 ```
 
 ### 14. `du`
-**संक्षिप्त जानकारी:** the Linux du command to measure disk usage, understand its options, and learn how to exclude directories from the measurement process.
+**संक्षिप्त जानकारी:** file वा directory ले प्रयोग गरेको disk space देखाउँछ।
 
 **Example:**
 ```bash
@@ -212,7 +212,7 @@ du -sh .
 ```
 
 ### 15. `df`
-**संक्षिप्त जानकारी:** the Linux df command, a powerful tool for monitoring disk usage. Learn how to customize the output and gain practical insights into your system's storage capacity.
+**संक्षिप्त जानकारी:** disk मा कति space प्रयोग/बाँकी छ देखाउँछ।
 
 **Example:**
 ```bash
@@ -226,7 +226,7 @@ Filesystem  Size  Used  Avail  Use%  Mounted on
 ```
 
 ### 16. `stat`
-**संक्षिप्त जानकारी:** the Linux stat command, learn how to retrieve file metadata, and analyze file permissions and ownership with practical examples.
+**संक्षिप्त जानकारी:** file को size, permission, timestamp जस्ता विवरण देखाउँछ।
 
 **Example:**
 ```bash
@@ -241,7 +241,7 @@ Access: (0644/-rw-r--r--)
 ```
 
 ### 17. `find`
-**संक्षिप्त जानकारी:** the power of the Linux find command with practical examples. Learn to search for files by name, file type, and combine find with other commands for advanced file system operations.
+**संक्षिप्त जानकारी:** निर्धारित स्थानमा file वा directory खोज्छ।
 
 **Example:**
 ```bash
@@ -255,7 +255,7 @@ find . -name '*.txt'
 ```
 
 ### 18. `locate`
-**संक्षिप्त जानकारी:** the Linux locate command, a powerful tool for quickly searching and finding files on your system. Learn how to install the mlocate package and use locate to search for files and directories.
+**संक्षिप्त जानकारी:** नामको आधारमा file छिटो खोज्छ।
 
 **Example:**
 ```bash
@@ -268,7 +268,7 @@ locate notes.txt
 ```
 
 ### 19. `updatedb`
-**संक्षिप्त जानकारी:** the updatedb command in Linux, which updates the locate database for efficient file searches. Learn how to use updatedb and the locate command with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -281,7 +281,7 @@ No output on success.
 ```
 
 ### 20. `which`
-**संक्षिप्त जानकारी:** the Linux which command, learn how to locate the path of executable files, and discover advanced usage scenarios with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -294,7 +294,7 @@ which bash
 ```
 
 ### 21. `whereis`
-**संक्षिप्त जानकारी:** the Linux whereis command and learn how to locate executable files, source code, and manual pages on your system. Customize the search behavior to suit your needs.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -307,7 +307,7 @@ bash: /usr/bin/bash /usr/share/man/man1/bash.1.gz
 ```
 
 ### 22. `file`
-**संक्षिप्त जानकारी:** the versatile file command in Linux, learn to identify file types, and handle compressed files effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -320,7 +320,7 @@ hello.txt: ASCII text
 ```
 
 ### 23. `od`
-**संक्षिप्त जानकारी:** the od command in Linux, learn its options, and perform hexadecimal dumps of files with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -333,7 +333,7 @@ od -An -tc hello.txt
 ```
 
 ### 24. `mktemp`
-**संक्षिप्त जानकारी:** the mktemp command in Linux, learn how to create secure temporary files, and discover practical examples for efficient file management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -346,7 +346,7 @@ mktemp
 ```
 
 ### 25. `basename`
-**संक्षिप्त जानकारी:** the basename command in Linux, learn how to extract filenames from full paths, and combine it with other commands for efficient file and directory operations.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -359,7 +359,7 @@ file.txt
 ```
 
 ### 26. `dirname`
-**संक्षिप्त जानकारी:** how to use the dirname command in Linux to retrieve the directory name from a file path. Explore practical examples and combine dirname with other Linux commands.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -372,7 +372,7 @@ dirname /home/user/file.txt
 ```
 
 ### 27. `dirs`
-**संक्षिप्त जानकारी:** the Linux dirs command, which allows you to manage the directory stack, navigate directories efficiently, and understand the practical applications of this powerful tool.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -385,7 +385,7 @@ dirs
 ```
 
 ### 28. `mc`
-**संक्षिप्त जानकारी:** the Midnight Commander (mc) file manager, learn how to install it on Ubuntu 22.04, and perform essential file and directory operations using this powerful command-line tool.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -398,7 +398,7 @@ Usage/help information for `mc` (illustrative; exact output varies by distributi
 ```
 
 ### 29. `readlink`
-**संक्षिप्त जानकारी:** the readlink command in Linux, learn its syntax and options, and practice resolving symbolic links with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -411,7 +411,7 @@ readlink -f syslog.link
 ```
 
 ### 30. `rename`
-**संक्षिप्त जानकारी:** how to use the Linux rename command to efficiently rename files and directories. Explore practical examples and batch renaming techniques.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -424,7 +424,7 @@ No output on success.
 ```
 
 ### 31. `rmdir`
-**संक्षिप्त जानकारी:** the rmdir command in Linux, learn how to create and delete empty directories, and remove non-empty directories using practical examples.
+**संक्षिप्त जानकारी:** खाली directory हटाउँछ।
 
 **Example:**
 ```bash
@@ -437,7 +437,7 @@ No output on success.
 ```
 
 ### 32. `shred`
-**संक्षिप्त जानकारी:** the Linux shred command, which securely deletes files by overwriting their contents multiple times, ensuring complete data erasure. Learn practical examples of using shred to delete files and wipe disk partitions.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -450,7 +450,7 @@ No output on success.
 ```
 
 ### 33. `chattr`
-**संक्षिप्त जानकारी:** the Linux chattr command, learn how to modify file attributes, and protect important files with the immutable attribute. Gain a deeper understanding of file management in Linux.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -463,7 +463,7 @@ No output on success.
 ```
 
 ### 34. `lsattr`
-**संक्षिप्त जानकारी:** the lsattr command in Linux, which allows you to view and manage file attributes. Learn how to use this powerful tool to understand and manipulate file properties, enhancing your file management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -476,7 +476,7 @@ lsattr important.txt
 ```
 
 ### 35. `cksum`
-**संक्षिप्त जानकारी:** the cksum command in Linux, learn how to calculate checksums for files, and verify file integrity using practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -489,7 +489,7 @@ cksum hello.txt
 ```
 
 ### 36. `cmp`
-**संक्षिप्त जानकारी:** the cmp command in Linux, learn how to compare text and binary files, and gain practical experience with hands-on examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -502,7 +502,7 @@ No output if the files are identical.
 ```
 
 ### 37. `mtools`
-**संक्षिप्त जानकारी:** the mtools command-line utilities for managing floppy disk images on Ubuntu 22.04. Learn how to install mtools, use various commands, and perform practical operations on floppy disk images.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -515,7 +515,7 @@ Usage/help information for `mtools` (illustrative; exact output varies by distri
 ```
 
 ### 38. `mcopy`
-**संक्षिप्त जानकारी:** the Linux mcopy command, learn how to copy files and directories, and discover advanced options for efficient file management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -528,7 +528,7 @@ Usage/help information for `mcopy` (illustrative; exact output varies by distrib
 ```
 
 ### 39. `mdel`
-**संक्षिप्त जानकारी:** the mdel command in Linux, learn its syntax, and practice creating and managing multiple directories using practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -541,7 +541,7 @@ Usage/help information for `mdel` (illustrative; exact output varies by distribu
 ```
 
 ### 40. `mdir`
-**संक्षिप्त जानकारी:** the Linux mdir command with practical examples. Learn how to create and manage directories, and discover advanced options for efficient directory operations.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -554,7 +554,7 @@ Usage/help information for `mdir` (illustrative; exact output varies by distribu
 ```
 
 ### 41. `mmove`
-**संक्षिप्त जानकारी:** the Linux mmove command and learn how to effectively move files and directories with practical examples. Discover advanced options to enhance your file management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -567,7 +567,7 @@ Usage/help information for `mmove` (illustrative; exact output varies by distrib
 ```
 
 ### 42. `mread`
-**संक्षिप्त जानकारी:** the Linux mread command and learn how to use it for efficient file reading with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -580,7 +580,7 @@ Usage/help information for `mread` (illustrative; exact output varies by distrib
 ```
 
 ### 43. `mren`
-**संक्षिप्त जानकारी:** the mren command in Linux, a powerful tool for renaming multiple files efficiently. Learn practical examples and advanced usage with regular expressions.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -593,7 +593,7 @@ Usage/help information for `mren` (illustrative; exact output varies by distribu
 ```
 
 ### 44. `mshowfat`
-**संक्षिप्त जानकारी:** the mshowfat command in Linux, which provides detailed information about the FAT file system structure. Learn how to use mshowfat to analyze and troubleshoot FAT-based storage devices.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -606,7 +606,7 @@ Usage/help information for `mshowfat` (illustrative; exact output varies by dist
 ```
 
 ### 45. `mtype`
-**संक्षिप्त जानकारी:** the Linux mtype command, its options, and practical examples to enhance your understanding of basic file and directory operations.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -619,7 +619,7 @@ Usage/help information for `mtype` (illustrative; exact output varies by distrib
 ```
 
 ### 46. `mattrib`
-**संक्षिप्त जानकारी:** the Linux mattrib command and its practical applications for modifying file attributes, managing multiple files and directories, and understanding its syntax and purpose.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -632,7 +632,7 @@ Usage/help information for `mattrib` (illustrative; exact output varies by distr
 ```
 
 ### 47. `mmd`
-**संक्षिप्त जानकारी:** the mmd command in Linux, learn how to create Markdown files, and convert them to HTML and PDF formats for various use cases.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -645,7 +645,7 @@ Usage/help information for `mmd` (illustrative; exact output varies by distribut
 ```
 
 ### 48. `mrd`
-**संक्षिप्त जानकारी:** the mrd command in Linux, a tool for managing directories. Learn its syntax, options, and practical applications through hands-on exercises.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -658,7 +658,7 @@ Usage/help information for `mrd` (illustrative; exact output varies by distribut
 ```
 
 ### 49. `mzip`
-**संक्षिप्त जानकारी:** the mzip command in Linux, learn how to compress and extract files and directories using this versatile tool, and gain practical experience with real- world examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -671,7 +671,7 @@ Usage/help information for `mzip` (illustrative; exact output varies by distribu
 ```
 
 ### 50. `mtoolstest`
-**संक्षिप्त जानकारी:** the mtoolstest command in Linux, learn how to verify its installation, and discover practical examples of its usage for file and directory operations.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -684,7 +684,7 @@ Usage/help information for `mtoolstest` (illustrative; exact output varies by di
 ```
 
 ### 51. `tee`
-**संक्षिप्त जानकारी:** the versatile tee command in Linux, learn how to redirect output to both a file and the terminal, and append output to existing files.
+**संक्षिप्त जानकारी:** output screen मा देखाउँदै file मा पनि लेख्छ।
 
 **Example:**
 ```bash
@@ -697,7 +697,7 @@ Hello
 ```
 
 ### 52. `read`
-**संक्षिप्त जानकारी:** the Linux read command and learn how to use it to capture user input, store it in variables, and validate the input. Gain practical experience through hands-on examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -717,7 +717,7 @@ Hello Prakash
 **Commands 53–96 (44 commands)**
 
 ### 53. `grep`
-**संक्षिप्त जानकारी:** the powerful grep command in Linux, learn how to search for patterns in text files, and combine grep with other commands for efficient text processing.
+**संक्षिप्त जानकारी:** file वा command output भित्र चाहिएको text खोज्छ।
 
 **Example:**
 ```bash
@@ -730,7 +730,7 @@ grep 'error' app.log
 ```
 
 ### 54. `sed`
-**संक्षिप्त जानकारी:** the power of the sed command in Linux, learning how to perform text substitution, edit multiple files, and more through practical examples.
+**संक्षिप्त जानकारी:** text खोजेर परिवर्तन, हटाउने वा replace गर्ने काम गर्छ।
 
 **Example:**
 ```bash
@@ -743,7 +743,7 @@ Ubuntu is powerful.
 ```
 
 ### 55. `awk`
-**संक्षिप्त जानकारी:** the power of the awk command in Linux, learn how to perform text processing, data manipulation, and analysis with practical examples.
+**संक्षिप्त जानकारी:** text/data लाई field अनुसार पढेर processing गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -757,7 +757,7 @@ bob
 ```
 
 ### 56. `cut`
-**संक्षिप्त जानकारी:** the versatile Linux cut command and learn how to extract specific columns from text files. Discover practical examples to enhance your text processing skills.
+**संक्षिप्त जानकारी:** line बाट आवश्यक column वा character निकाल्छ।
 
 **Example:**
 ```bash
@@ -771,7 +771,7 @@ user
 ```
 
 ### 57. `paste`
-**संक्षिप्त जानकारी:** how to use the Linux paste command to combine multiple files, customize the output, and perform efficient text processing tasks.
+**संक्षिप्त जानकारी:** धेरै file का lines लाई एउटै output मा जोड्छ।
 
 **Example:**
 ```bash
@@ -785,7 +785,7 @@ Bob	25
 ```
 
 ### 58. `sort`
-**संक्षिप्त जानकारी:** the powerful sort command in Linux, learn how to sort files by different criteria, and combine it with other commands for efficient text processing.
+**संक्षिप्त जानकारी:** text का lines लाई क्रमबद्ध गर्छ।
 
 **Example:**
 ```bash
@@ -800,7 +800,7 @@ Charlie
 ```
 
 ### 59. `uniq`
-**संक्षिप्त जानकारी:** the uniq command in Linux, learn its syntax, and discover practical examples to remove duplicate lines and count unique occurrences in text files.
+**संक्षिप्त जानकारी:** लगातार दोहोरिएका lines हटाउँछ।
 
 **Example:**
 ```bash
@@ -815,7 +815,7 @@ Charlie
 ```
 
 ### 60. `tr`
-**संक्षिप्त जानकारी:** the powerful Linux tr command and learn how to translate, delete, squeeze, and complement characters in text processing with practical examples.
+**संक्षिप्त जानकारी:** characters लाई परिवर्तन वा रूपान्तरण गर्छ।
 
 **Example:**
 ```bash
@@ -828,7 +828,7 @@ HELLO
 ```
 
 ### 61. `head`
-**संक्षिप्त जानकारी:** the Linux head command and learn how to use it effectively for text processing and editing tasks. Discover practical examples and master the various options to extract the top lines from files.
+**संक्षिप्त जानकारी:** file को सुरुका केही lines देखाउँछ।
 
 **Example:**
 ```bash
@@ -843,7 +843,7 @@ line 3
 ```
 
 ### 62. `tail`
-**संक्षिप्त जानकारी:** the Linux tail command and its practical applications, including monitoring log files and viewing the end of text files.
+**संक्षिप्त जानकारी:** file को अन्तिम केही lines देखाउँछ।
 
 **Example:**
 ```bash
@@ -858,7 +858,7 @@ line 10
 ```
 
 ### 63. `wc`
-**संक्षिप्त जानकारी:** the Linux wc command and learn how to count words, lines, and characters in files. Discover practical examples of using wc with other Linux commands for efficient text processing.
+**संक्षिप्त जानकारी:** line, word र character को संख्या गन्छ।
 
 **Example:**
 ```bash
@@ -871,7 +871,7 @@ wc -l file.txt
 ```
 
 ### 64. `diff`
-**संक्षिप्त जानकारी:** the Linux diff command, a powerful tool for comparing and analyzing text files. Learn its syntax, practical examples, and advanced options to effectively manage and process text data.
+**संक्षिप्त जानकारी:** दुई file बीचको फरक देखाउँछ।
 
 **Example:**
 ```bash
@@ -887,7 +887,7 @@ diff file1.txt file2.txt
 ```
 
 ### 65. `patch`
-**संक्षिप्त जानकारी:** how to use the Linux patch command to apply and revert changes to files. Explore practical examples and understand the syntax and purpose of this powerful text editing tool.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -900,7 +900,7 @@ patching file file.txt
 ```
 
 ### 66. `split`
-**संक्षिप्त जानकारी:** the Linux split command and its practical applications. Learn how to split files into multiple parts, customize the split options, and efficiently manage your text data.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -914,7 +914,7 @@ part_ab
 ```
 
 ### 67. `join`
-**संक्षिप्त जानकारी:** the power of the join command in Linux, learn its syntax, and apply it to merge files based on common fields. Gain practical experience through step-by- step examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -927,7 +927,7 @@ join users.txt departments.txt
 ```
 
 ### 68. `fmt`
-**संक्षिप्त जानकारी:** the fmt command in Linux, a powerful tool for formatting text files. Learn how to use it effectively with practical examples and customization options.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -940,7 +940,7 @@ Wrapped text output ...
 ```
 
 ### 69. `fold`
-**संक्षिप्त जानकारी:** the Linux fold command and its practical applications for text processing and editing. Learn to fold text files with different column widths and combine the fold command with other Linux tools.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -953,7 +953,7 @@ Long line wrapped at 20 columns.
 ```
 
 ### 70. `expand`
-**संक्षिप्त जानकारी:** the Linux expand command and learn how to convert tabs to spaces in single or multiple files, enhancing text processing and editing workflows.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -966,7 +966,7 @@ Tabs converted to spaces.
 ```
 
 ### 71. `col`
-**संक्षिप्त जानकारी:** the versatile col command in Linux, learn how to manipulate tabular data, and combine it with other commands for advanced text formatting.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -980,7 +980,7 @@ User Commands
 ```
 
 ### 72. `colrm`
-**संक्षिप्त जानकारी:** how to use the Linux colrm command to remove specific columns from a file. Explore practical examples and combine colrm with other commands for efficient text processing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -993,7 +993,7 @@ abef
 ```
 
 ### 73. `comm`
-**संक्षिप्त जानकारी:** the powerful comm command in Linux, learn how to compare and contrast sorted files, and customize the output with various options. Enhance your text processing and editing skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1008,7 +1008,7 @@ Lines unique to file1
 ```
 
 ### 74. `csplit`
-**संक्षिप्त जानकारी:** the csplit command in Linux, learn how to split files into multiple parts, and discover customization options for efficient text processing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1022,7 +1022,7 @@ csplit file.txt '/^SECTION/'
 ```
 
 ### 75. `ispell`
-**संक्षिप्त जानकारी:** how to use the ispell command in Linux to check the spelling of single words and text files. Explore practical examples and gain proficiency in text processing and editing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1035,7 +1035,7 @@ Usage/help information for `ispell` (illustrative; exact output varies by distri
 ```
 
 ### 76. `spell`
-**संक्षिप्त जानकारी:** the Linux spell command, learn how to install and use it for basic spell checking on text files. Enhance your text processing and editing skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1048,7 +1048,7 @@ Usage/help information for `spell` (illustrative; exact output varies by distrib
 ```
 
 ### 77. `diffstat`
-**संक्षिप्त जानकारी:** the diffstat command, a powerful tool for analyzing changes in text files. Learn how to use diffstat to process patch files, Git diffs, and more, with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1061,7 +1061,7 @@ Usage/help information for `diffstat` (illustrative; exact output varies by dist
 ```
 
 ### 78. `expr`
-**संक्षिप्त जानकारी:** the versatile expr command in Linux, learn its syntax, and discover practical examples for performing arithmetic operations, string manipulation, and conditional expressions.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1074,7 +1074,7 @@ expr 10 + 5
 ```
 
 ### 79. `aspell`
-**संक्षिप्त जानकारी:** the Linux aspell command and learn how to correct spelling errors in text files, customize the aspell dictionary, and adjust preferences for efficient text processing and editing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1087,7 +1087,7 @@ Interactive spell checker opens.
 ```
 
 ### 80. `emacs`
-**संक्षिप्त जानकारी:** the powerful emacs text editor with this hands-on lab. Learn basic commands, shortcuts, and how to customize emacs for efficient text processing and editing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1100,7 +1100,7 @@ Usage/help information for `emacs` (illustrative; exact output varies by distrib
 ```
 
 ### 81. `gawk`
-**संक्षिप्त जानकारी:** the powerful gawk command in Linux, learn how to extract data from text files, perform calculations, and transform data efficiently.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1114,7 +1114,7 @@ bob
 ```
 
 ### 82. `indent`
-**संक्षिप्त जानकारी:** the Linux indent command, learn its syntax, and discover practical examples to format C/C++ source code with customizable options for different coding styles.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1127,7 +1127,7 @@ Usage/help information for `indent` (illustrative; exact output varies by distri
 ```
 
 ### 83. `sdiff`
-**संक्षिप्त जानकारी:** the sdiff command in Linux, a powerful tool for comparing and merging text files. Learn its syntax, practical examples, and how to customize the output for efficient text processing and editing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1140,7 +1140,7 @@ same line              same line
 ```
 
 ### 84. `tac`
-**संक्षिप्त जानकारी:** the tac command in Linux, which reverses the order of lines in a text file. Learn practical examples and how to combine tac with other commands for advanced text processing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1154,7 +1154,7 @@ first line
 ```
 
 ### 85. `unexpand`
-**संक्षिप्त जानकारी:** the Linux unexpand command, which converts spaces to tabs, with practical examples. Learn how to customize the command and optimize text processing workflows.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1167,7 +1167,7 @@ Spaces converted to tabs.
 ```
 
 ### 86. `unix2dos`
-**संक्षिप्त जानकारी:** how to use the unix2dos command to convert text files from Unix to DOS format, handle newline characters, and perform practical text processing tasks on Linux/Unix systems.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1180,7 +1180,7 @@ unix2dos: converting file file.txt to DOS format...
 ```
 
 ### 87. `vi`
-**संक्षिप्त जानकारी:** the powerful vi text editor in Linux, learn its basic navigation and editing commands, and dive into advanced features for efficient text processing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1193,7 +1193,7 @@ Interactive editor opens.
 ```
 
 ### 88. `ed`
-**संक्षिप्त जानकारी:** the powerful Linux ed command for text processing and editing. Learn how to edit text files, perform advanced operations, and enhance your command- line skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1206,7 +1206,7 @@ Usage/help information for `ed` (illustrative; exact output varies by distributi
 ```
 
 ### 89. `egrep`
-**संक्षिप्त जानकारी:** the powerful egrep command in Linux, learn how to use regular expressions for efficient text processing, and discover practical examples to enhance your text manipulation skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1220,7 +1220,7 @@ warning: retrying
 ```
 
 ### 90. `ex`
-**संक्षिप्त जानकारी:** the ex command, a powerful text editor in Linux. Learn the basics, perform editing operations, and automate ex commands using scripts for efficient text processing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1233,7 +1233,7 @@ Usage/help information for `ex` (illustrative; exact output varies by distributi
 ```
 
 ### 91. `fgrep`
-**संक्षिप्त जानकारी:** the fgrep command in Linux, a powerful tool for searching fixed strings in text files. Learn practical examples and techniques to efficiently manipulate text data.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1246,7 +1246,7 @@ hello.world
 ```
 
 ### 92. `jed`
-**संक्षिप्त जानकारी:** the jed text editor, a powerful and versatile tool for text processing and editing on Linux systems. Learn basic commands, navigation, and customization to enhance your productivity.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1259,7 +1259,7 @@ Usage/help information for `jed` (illustrative; exact output varies by distribut
 ```
 
 ### 93. `joe`
-**संक्षिप्त जानकारी:** the powerful joe text editor on Ubuntu 22.04. Learn how to install, create, edit, and customize files using the joe command-line tool.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1272,7 +1272,7 @@ Usage/help information for `joe` (illustrative; exact output varies by distribut
 ```
 
 ### 94. `look`
-**संक्षिप्त जानकारी:** how to use the Linux look command to search for specific words or phrases in text files. Explore practical examples and combine the look command with other Linux tools for efficient text processing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1287,7 +1287,7 @@ present
 ```
 
 ### 95. `pico`
-**संक्षिप्त जानकारी:** the pico text editor, a user- friendly command-line tool for text processing and editing on Linux systems. Learn basic commands, customization options, and practical examples to enhance your productivity.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1300,7 +1300,7 @@ Usage/help information for `pico` (illustrative; exact output varies by distribu
 ```
 
 ### 96. `column`
-**संक्षिप्त जानकारी:** the Linux column command and learn how to format tabular data, customize output, and apply practical examples to enhance your text processing skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1321,7 +1321,7 @@ b  2
 **Commands 97–145 (49 commands)**
 
 ### 97. `top`
-**संक्षिप्त जानकारी:** the powerful top command in Linux, learn its options and customizations, and analyze system performance using real-world examples.
+**संक्षिप्त जानकारी:** CPU, memory र process को live अवस्था देखाउँछ।
 
 **Example:**
 ```bash
@@ -1334,7 +1334,7 @@ Interactive process monitor opens.
 ```
 
 ### 98. `ps`
-**संक्षिप्त जानकारी:** the powerful Linux ps command and learn how to filter processes by user, monitor CPU and memory usage, and gain practical insights into system monitoring and management.
+**संक्षिप्त जानकारी:** चलिरहेका process हरूको विवरण देखाउँछ।
 
 **Example:**
 ```bash
@@ -1348,7 +1348,7 @@ root 1 ... /sbin/init
 ```
 
 ### 99. `free`
-**संक्षिप्त जानकारी:** the Linux free command, learn its syntax, and analyze memory usage with practical examples. Customize the free command output to suit your system monitoring needs.
+**संक्षिप्त जानकारी:** RAM र swap memory को प्रयोग देखाउँछ।
 
 **Example:**
 ```bash
@@ -1362,7 +1362,7 @@ Mem:            7.7Gi  3.1Gi  1.8Gi
 ```
 
 ### 100. `uname`
-**संक्षिप्त जानकारी:** the versatile uname command in Linux, which provides detailed information about your system's hardware and software configurations. Learn how to retrieve system details and combine options for comprehensive output.
+**संक्षिप्त जानकारी:** Linux kernel तथा system सम्बन्धी जानकारी देखाउँछ।
 
 **Example:**
 ```bash
@@ -1375,7 +1375,7 @@ Linux host 6.x.x-generic x86_64 GNU/Linux
 ```
 
 ### 101. `uptime`
-**संक्षिप्त जानकारी:** the Linux uptime command and its practical applications for monitoring system uptime and load average. Learn how to effectively utilize this tool for system management and troubleshooting.
+**संक्षिप्त जानकारी:** system कति समयदेखि चलिरहेको छ र load कति छ देखाउँछ।
 
 **Example:**
 ```bash
@@ -1388,7 +1388,7 @@ uptime
 ```
 
 ### 102. `lsof`
-**संक्षिप्त जानकारी:** the powerful lsof command in Linux, learn how to identify open files by a process, and locate network connections. Gain practical system monitoring and management skills.
+**संक्षिप्त जानकारी:** कुन process ले कुन file वा network resource प्रयोग गरिरहेको छ देखाउँछ।
 
 **Example:**
 ```bash
@@ -1402,7 +1402,7 @@ nginx ... TCP *:http
 ```
 
 ### 103. `vmstat`
-**संक्षिप्त जानकारी:** the powerful vmstat command in Linux, learn how to monitor system performance, and analyze CPU, memory, and disk I/O metrics with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1415,7 +1415,7 @@ procs ... memory ... swap ... io ... cpu ...
 ```
 
 ### 104. `iostat`
-**संक्षिप्त जानकारी:** the powerful iostat command in Linux, learn to analyze CPU and I/O statistics, and monitor disk performance for effective system monitoring and management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1429,7 +1429,7 @@ avg-cpu:  %user  %system  %idle
 ```
 
 ### 105. `dmesg`
-**संक्षिप्त जानकारी:** the Linux kernel ring buffer using the dmesg command. Learn how to filter and analyze the output to monitor system events and troubleshoot issues.
+**संक्षिप्त जानकारी:** kernel बाट आएका system/hardware messages देखाउँछ।
 
 **Example:**
 ```bash
@@ -1442,7 +1442,7 @@ dmesg | tail -n 3
 ```
 
 ### 106. `htop`
-**संक्षिप्त जानकारी:** the powerful htop command in Linux, a real-time system monitoring tool. Learn how to navigate, interact, and customize htop to efficiently monitor and manage your system resources.
+**संक्षिप्त जानकारी:** process monitoring का लागि interactive interface दिन्छ।
 
 **Example:**
 ```bash
@@ -1455,7 +1455,7 @@ Interactive process monitor opens.
 ```
 
 ### 107. `lshw`
-**संक्षिप्त जानकारी:** the lshw command, a powerful tool for gathering detailed hardware information on your Linux system. Learn how to use lshw to customize output and save data to a file for analysis.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1469,7 +1469,7 @@ H/W path  Device  Class  Description
 ```
 
 ### 108. `lsusb`
-**संक्षिप्त जानकारी:** the Linux lsusb command and learn how to use it to identify USB device information on your system. Understand the purpose and basic usage of this powerful system monitoring tool.
+**संक्षिप्त जानकारी:** USB devices को जानकारी देखाउँछ।
 
 **Example:**
 ```bash
@@ -1482,7 +1482,7 @@ Bus 001 Device 002: ID 1234:5678 USB Device
 ```
 
 ### 109. `lsblk`
-**संक्षिप्त जानकारी:** the lsblk command in Linux, which lists information about block devices. Learn how to use various options and filters to effectively manage and monitor your system's storage devices.
+**संक्षिप्त जानकारी:** disk र partition को संरचना देखाउँछ।
 
 **Example:**
 ```bash
@@ -1496,7 +1496,7 @@ sda ...
 ```
 
 ### 110. `mpstat`
-**संक्षिप्त जानकारी:** the Linux mpstat command, a powerful tool for monitoring and analyzing CPU utilization metrics across multiple CPUs. Learn how to use mpstat to gain insights into system performance and optimize resource allocation.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1510,7 +1510,7 @@ Average: all  ... %idle
 ```
 
 ### 111. `pidof`
-**संक्षिप्त जानकारी:** the Linux pidof command and its practical applications for finding the process ID (PID) of running processes. Learn how to locate multiple processes with the same name and gain insights into system monitoring and...
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1523,7 +1523,7 @@ pidof sshd
 ```
 
 ### 112. `sar`
-**संक्षिप्त जानकारी:** the powerful sar command in Linux and learn how to analyze system performance metrics through practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1536,7 +1536,7 @@ Usage/help information for `sar` (illustrative; exact output varies by distribut
 ```
 
 ### 113. `procinfo`
-**संक्षिप्त जानकारी:** the Linux procinfo command and learn how to monitor system information, customize output, and gain practical insights into system performance and resource utilization.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1549,7 +1549,7 @@ Usage/help information for `procinfo` (illustrative; exact output varies by dist
 ```
 
 ### 114. `pstree`
-**संक्षिप्त जानकारी:** the process hierarchy on your Linux system using the pstree command. Learn how to filter and customize the output to gain a deeper understanding of your system's processes.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1562,7 +1562,7 @@ systemd(1)-+-sshd(790)---bash(812)
 ```
 
 ### 115. `tload`
-**संक्षिप्त जानकारी:** the Linux tload command, a powerful tool for monitoring system load average. Learn how to interpret tload output and identify performance issues on your system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1575,7 +1575,7 @@ Usage/help information for `tload` (illustrative; exact output varies by distrib
 ```
 
 ### 116. `logrotate`
-**संक्षिप्त जानकारी:** the logrotate command in Linux, learn how to configure it for Apache web server logs, and customize the configuration for specific log files.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1588,7 +1588,7 @@ Usage/help information for `logrotate` (illustrative; exact output varies by dis
 ```
 
 ### 117. `watch`
-**संक्षिप्त जानकारी:** the powerful Linux watch command and its practical applications, including monitoring system processes and tracking file changes.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1601,7 +1601,7 @@ Repeated command output every 2 seconds.
 ```
 
 ### 118. `time`
-**संक्षिप्त जानकारी:** the Linux time command and learn how to measure the execution time of commands, analyze their performance, and optimize system efficiency.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1616,7 +1616,7 @@ sys	0m0.00s
 ```
 
 ### 119. `date`
-**संक्षिप्त जानकारी:** the Linux date command and learn how to display, format, and manipulate date and time information on your system.
+**संक्षिप्त जानकारी:** हालको system date र time देखाउँछ।
 
 **Example:**
 ```bash
@@ -1629,7 +1629,7 @@ date '+%Y-%m-%d'
 ```
 
 ### 120. `cal`
-**संक्षिप्त जानकारी:** the Linux cal command, learn its syntax, and practice using it to display calendars for the current month, specific years, and months.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1642,7 +1642,7 @@ cal 2026
 ```
 
 ### 121. `arch`
-**संक्षिप्त जानकारी:** the arch command in Linux, learn how to identify your system's hardware architecture, and discover practical scenarios for using this powerful tool.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1655,7 +1655,7 @@ x86_64
 ```
 
 ### 122. `dmidecode`
-**संक्षिप्त जानकारी:** the dmidecode command, a powerful tool for retrieving detailed hardware information on Linux systems. Learn how to display system hardware details and extract specific hardware data.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1668,7 +1668,7 @@ Usage/help information for `dmidecode` (illustrative; exact output varies by dis
 ```
 
 ### 123. `dstat`
-**संक्षिप्त जानकारी:** the dstat command, a versatile system monitoring tool, and learn how to use it to monitor CPU utilization, memory usage, and other system metrics on your Linux machine.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1681,7 +1681,7 @@ Usage/help information for `dstat` (illustrative; exact output varies by distrib
 ```
 
 ### 124. `iotop`
-**संक्षिप्त जानकारी:** the Linux iotop command, a powerful tool for monitoring disk I/O usage. Learn how to install, configure, and utilize iotop to analyze system performance and identify resource- intensive processes.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1694,7 +1694,7 @@ Usage/help information for `iotop` (illustrative; exact output varies by distrib
 ```
 
 ### 125. `journalctl`
-**संक्षिप्त जानकारी:** the powerful journalctl command in Linux, learn how to filter and analyze system logs, and gain practical experience with real-world examples.
+**संक्षिप्त जानकारी:** systemd का system र service logs हेर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -1707,7 +1707,7 @@ Recent systemd journal entries ...
 ```
 
 ### 126. `pmap`
-**संक्षिप्त जानकारी:** the pmap command in Linux, a powerful tool for analyzing memory usage and identifying memory leaks in processes. Learn practical examples to optimize system performance.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1720,7 +1720,7 @@ Usage/help information for `pmap` (illustrative; exact output varies by distribu
 ```
 
 ### 127. `adduser`
-**संक्षिप्त जानकारी:** the Linux adduser command with practical examples. Learn how to create new user accounts, set passwords and expiration, and add users to existing groups for effective system management.
+**संक्षिप्त जानकारी:** नयाँ user सजिलो तरिकाले सिर्जना गर्छ।
 
 **Example:**
 ```bash
@@ -1734,7 +1734,7 @@ Adding new group `demo` ...
 ```
 
 ### 128. `chage`
-**संक्षिप्त जानकारी:** the chage command in Linux, learn how to modify user password expiration dates, and enforce password expiration policies for enhanced system security.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1747,7 +1747,7 @@ Usage/help information for `chage` (illustrative; exact output varies by distrib
 ```
 
 ### 129. `chpasswd`
-**संक्षिप्त जानकारी:** the chpasswd command in Linux, learn how to change user passwords in batch mode, and automate password changes using shell scripts.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1760,7 +1760,7 @@ Usage/help information for `chpasswd` (illustrative; exact output varies by dist
 ```
 
 ### 130. `grpck`
-**संक्षिप्त जानकारी:** the Linux grpck command, which verifies the integrity of the group file. Learn how to use grpck to identify and repair group file issues, ensuring the proper management of user groups on your system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1773,7 +1773,7 @@ Usage/help information for `grpck` (illustrative; exact output varies by distrib
 ```
 
 ### 131. `vlock`
-**संक्षिप्त जानकारी:** the Linux vlock command, which allows you to lock the current terminal session, providing a secure way to protect your system when stepping away from your computer.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1786,7 +1786,7 @@ Usage/help information for `vlock` (illustrative; exact output varies by distrib
 ```
 
 ### 132. `logout`
-**संक्षिप्त जानकारी:** the Linux logout command, learn its purpose, and discover practical examples to automate logout sessions using shell scripts.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1799,7 +1799,7 @@ Built-in shell command 'logout'; output/behavior depends on the shell.
 ```
 
 ### 133. `login`
-**संक्षिप्त जानकारी:** the login command in Linux, learn how to log in as a regular user and the root user, and gain practical experience with hands-on examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1812,7 +1812,7 @@ Usage/help information for `login` (illustrative; exact output varies by distrib
 ```
 
 ### 134. `logname`
-**संक्षिप्त जानकारी:** the Linux logname command, its syntax, and practical examples to understand the current user's login name. Learn how to effectively use this command for system monitoring and management tasks.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1825,7 +1825,7 @@ Usage/help information for `logname` (illustrative; exact output varies by distr
 ```
 
 ### 135. `rlogin`
-**संक्षिप्त जानकारी:** the rlogin command in Linux, learn how to establish remote login sessions, execute remote commands, and transfer files securely between systems.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1838,7 +1838,7 @@ Usage/help information for `rlogin` (illustrative; exact output varies by distri
 ```
 
 ### 136. `rsh`
-**संक्षिप्त जानकारी:** the rsh command in Linux, learn how to establish remote shell connections, and execute remote commands effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1851,7 +1851,7 @@ Usage/help information for `rsh` (illustrative; exact output varies by distribut
 ```
 
 ### 137. `sliplogin`
-**संक्षिप्त जानकारी:** the sliplogin command in Linux, learn how to configure it, and troubleshoot any issues that may arise, with practical examples to enhance your system monitoring and management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1864,7 +1864,7 @@ Usage/help information for `sliplogin` (illustrative; exact output varies by dis
 ```
 
 ### 138. `swatch`
-**संक्षिप्त जानकारी:** the swatch command in Linux, a powerful tool for monitoring log files and setting up custom alerts. Learn how to configure swatch to monitor specific events and receive notifications.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1877,7 +1877,7 @@ Usage/help information for `swatch` (illustrative; exact output varies by distri
 ```
 
 ### 139. `w`
-**संक्षिप्त जानकारी:** the w command in Linux, learn how to analyze user login sessions, and monitor system load and resource utilization for effective system management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1890,7 +1890,7 @@ Usage/help information for `w` (illustrative; exact output varies by distributio
 ```
 
 ### 140. `rwho`
-**संक्षिप्त जानकारी:** the rwho command in Linux, which allows you to monitor users logged into remote systems. Learn how to utilize this tool for user monitoring and system management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1903,7 +1903,7 @@ Usage/help information for `rwho` (illustrative; exact output varies by distribu
 ```
 
 ### 141. `shutdown`
-**संक्षिप्त जानकारी:** the Linux shutdown command and its practical applications, including immediate system shutdown and scheduled shutdowns at specific times.
+**संक्षिप्त जानकारी:** system shutdown/restart schedule गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -1916,7 +1916,7 @@ Usage/help information for `shutdown` (illustrative; exact options vary by distr
 ```
 
 ### 142. `halt`
-**संक्षिप्त जानकारी:** the Linux halt command, learn how to shut down the system, and discover additional options for managing system shutdown processes.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1929,7 +1929,7 @@ Usage/help information for `halt` (illustrative; exact options vary by distribut
 ```
 
 ### 143. `reboot`
-**संक्षिप्त जानकारी:** the Linux reboot command and learn how to reboot your system immediately or schedule a reboot at a specific time. Gain practical knowledge for system monitoring and management.
+**संक्षिप्त जानकारी:** system restart गर्छ।
 
 **Example:**
 ```bash
@@ -1942,7 +1942,7 @@ Usage/help information for `reboot` (illustrative; exact options vary by distrib
 ```
 
 ### 144. `exit`
-**संक्षिप्त जानकारी:** the Linux exit command and its practical usage in shell scripts. Learn how to terminate scripts, utilize different exit codes, and understand the purpose of this essential command.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1955,7 +1955,7 @@ Built-in shell command 'exit'; output/behavior depends on the shell.
 ```
 
 ### 145. `suspend`
-**संक्षिप्त जानकारी:** the Linux suspend command and learn how to suspend and resume the system, as well as manage power states effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -1975,7 +1975,7 @@ Usage/help information for `suspend` (illustrative; exact output varies by distr
 **Commands 146–175 (30 commands)**
 
 ### 146. `useradd`
-**संक्षिप्त जानकारी:** how to create new user accounts, assign passwords, and manage user account properties using the Linux useradd command with practical examples.
+**संक्षिप्त जानकारी:** नयाँ user account सिर्जना गर्छ।
 
 **Example:**
 ```bash
@@ -1988,7 +1988,7 @@ No output on success.
 ```
 
 ### 147. `userdel`
-**संक्षिप्त जानकारी:** how to use the Linux userdel command to delete user accounts, remove their home directories, and manage user permissions on your system.
+**संक्षिप्त जानकारी:** user account हटाउँछ।
 
 **Example:**
 ```bash
@@ -2001,7 +2001,7 @@ No output on success.
 ```
 
 ### 148. `usermod`
-**संक्षिप्त जानकारी:** the Linux usermod command and learn how to modify user account properties, change a user's primary group, and disable user account expiration using practical examples.
+**संक्षिप्त जानकारी:** अवस्थित user को account settings परिवर्तन गर्छ।
 
 **Example:**
 ```bash
@@ -2014,7 +2014,7 @@ No output on success.
 ```
 
 ### 149. `groupadd`
-**संक्षिप्त जानकारी:** the Linux groupadd command with practical examples, including creating new groups, adding users to groups, and modifying group properties. Enhance your user and permission management skills.
+**संक्षिप्त जानकारी:** नयाँ group बनाउँछ।
 
 **Example:**
 ```bash
@@ -2027,7 +2027,7 @@ No output on success.
 ```
 
 ### 150. `groupdel`
-**संक्षिप्त जानकारी:** the Linux groupdel command and learn how to delete groups effectively. This lab covers the purpose of groupdel, creating test groups, and deleting groups using practical examples.
+**संक्षिप्त जानकारी:** group हटाउँछ।
 
 **Example:**
 ```bash
@@ -2040,7 +2040,7 @@ No output on success.
 ```
 
 ### 151. `groupmod`
-**संक्षिप्त जानकारी:** the Linux groupmod command with practical examples. Learn how to modify a group's name and GID, enabling effective user and permission management on your Linux system.
+**संक्षिप्त जानकारी:** group को configuration वा नाम परिवर्तन गर्छ।
 
 **Example:**
 ```bash
@@ -2053,7 +2053,7 @@ No output on success.
 ```
 
 ### 152. `passwd`
-**संक्षिप्त जानकारी:** the Linux passwd command and learn how to change user passwords, reset forgotten passwords, and manage user permissions effectively.
+**संक्षिप्त जानकारी:** user को password परिवर्तन गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2066,7 +2066,7 @@ passwd: password updated successfully
 ```
 
 ### 153. `chown`
-**संक्षिप्त जानकारी:** the Linux chown command and learn how to change file ownership, including recursive ownership changes, with practical examples.
+**संक्षिप्त जानकारी:** file वा directory को owner/group परिवर्तन गर्छ।
 
 **Example:**
 ```bash
@@ -2079,7 +2079,7 @@ No output on success.
 ```
 
 ### 154. `chmod`
-**संक्षिप्त जानकारी:** the Linux chmod command with hands-on examples. Learn how to manage file permissions, change access rights, and recursively modify permissions for directories and files.
+**संक्षिप्त जानकारी:** file वा directory को permission परिवर्तन गर्छ।
 
 **Example:**
 ```bash
@@ -2092,7 +2092,7 @@ No output on success.
 ```
 
 ### 155. `chgrp`
-**संक्षिप्त जानकारी:** the chgrp command in Linux, learn how to change the group ownership of files and directories, and discover practical examples to enhance your user and permission management skills.
+**संक्षिप्त जानकारी:** file वा directory को group परिवर्तन गर्छ।
 
 **Example:**
 ```bash
@@ -2105,7 +2105,7 @@ No output on success.
 ```
 
 ### 156. `umask`
-**संक्षिप्त जानकारी:** the Linux umask command and learn how to modify file and directory permissions effectively. Discover practical examples to apply umask in various scenarios.
+**संक्षिप्त जानकारी:** नयाँ file/folder को default permission mask देखाउँछ वा सेट गर्छ।
 
 **Example:**
 ```bash
@@ -2118,7 +2118,7 @@ umask
 ```
 
 ### 157. `sudo`
-**संक्षिप्त जानकारी:** the power of the sudo command in Linux. Learn how to manage user permissions, secure your system, and execute commands with elevated privileges.
+**संक्षिप्त जानकारी:** administrator अधिकारमा command चलाउन प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2131,7 +2131,7 @@ No output when credentials are accepted.
 ```
 
 ### 158. `su`
-**संक्षिप्त जानकारी:** the Linux su command and learn how to switch users, manage privileges, and execute commands with elevated permissions.
+**संक्षिप्त जानकारी:** अर्को user को account मा switch गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2144,7 +2144,7 @@ Interactive login shell for demo starts.
 ```
 
 ### 159. `id`
-**संक्षिप्त जानकारी:** the Linux id command and learn how to use it to identify user and group information, including user ID, group ID, and supplementary groups. Discover practical examples and additional options to customize the...
+**संक्षिप्त जानकारी:** हालको user को UID, GID र groups देखाउँछ।
 
 **Example:**
 ```bash
@@ -2157,7 +2157,7 @@ uid=1000(user) gid=1000(user) groups=1000(user),27(sudo)
 ```
 
 ### 160. `who`
-**संक्षिप्त जानकारी:** the Linux who command, learn how to use it, and discover practical examples to understand user sessions and system activity.
+**संक्षिप्त जानकारी:** हाल system मा login भएका users देखाउँछ।
 
 **Example:**
 ```bash
@@ -2170,7 +2170,7 @@ user  tty2  2026-08-21 10:30
 ```
 
 ### 161. `whoami`
-**संक्षिप्त जानकारी:** the Linux whoami command and its practical applications. Learn how to use it to determine your current user identity, integrate it into shell scripts, and manage user permissions effectively.
+**संक्षिप्त जानकारी:** हाल login भएको user को नाम देखाउँछ।
 
 **Example:**
 ```bash
@@ -2183,7 +2183,7 @@ user
 ```
 
 ### 162. `chfn`
-**संक्षिप्त जानकारी:** the Linux chfn command, which allows you to modify user information such as the full name, office location, and phone number. Learn practical examples and advanced options to effectively manage user profiles.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2196,7 +2196,7 @@ Usage/help information for `chfn` (illustrative; exact output varies by distribu
 ```
 
 ### 163. `chsh`
-**संक्षिप्त जानकारी:** the Linux chsh command, learn how to change the default shell, and verify the changes with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2209,7 +2209,7 @@ Usage/help information for `chsh` (illustrative; exact output varies by distribu
 ```
 
 ### 164. `newgrp`
-**संक्षिप्त जानकारी:** the Linux newgrp command and learn how to create, switch, and manage group permissions. Gain practical knowledge for effective user and permission management in your Linux environment.
+**संक्षिप्त जानकारी:** हालको shell मा प्रभावकारी group परिवर्तन गर्छ।
 
 **Example:**
 ```bash
@@ -2222,7 +2222,7 @@ New shell starts with developers as the effective group.
 ```
 
 ### 165. `last`
-**संक्षिप्त जानकारी:** the Linux last command, which displays information about the last users who have logged into the system. Learn how to use it effectively with practical examples.
+**संक्षिप्त जानकारी:** अघिल्ला successful login हरूको इतिहास देखाउँछ।
 
 **Example:**
 ```bash
@@ -2235,7 +2235,7 @@ user tty2 ... still logged in
 ```
 
 ### 166. `lastb`
-**संक्षिप्त जानकारी:** the Linux lastb command, which displays information about failed login attempts. Learn how to analyze login failures and enhance system security.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2248,7 +2248,7 @@ Failed login records ...
 ```
 
 ### 167. `finger`
-**संक्षिप्त जानकारी:** the Linux finger command, which provides user information, and learn how to customize its output for practical use in user and permission management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2261,7 +2261,7 @@ Usage/help information for `finger` (illustrative; exact output varies by distri
 ```
 
 ### 168. `groups`
-**संक्षिप्त जानकारी:** how to effectively manage user groups in Linux using the groups command. Explore practical examples of creating, assigning, and removing users from groups to enhance your system administration skills.
+**संक्षिप्त जानकारी:** हालको user कुन-कुन group मा छ देखाउँछ।
 
 **Example:**
 ```bash
@@ -2274,7 +2274,7 @@ user sudo developers
 ```
 
 ### 169. `gpasswd`
-**संक्षिप्त जानकारी:** how to use the Linux gpasswd command to manage user group memberships. Add and remove users from groups, and explore practical examples to enhance your user and permission management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2287,7 +2287,7 @@ Usage/help information for `gpasswd` (illustrative; exact output varies by distr
 ```
 
 ### 170. `pwconv`
-**संक्षिप्त जानकारी:** the Linux pwconv command and learn how to create and manage user passwords effectively. Understand the purpose of pwconv and troubleshoot any password conversion issues.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2300,7 +2300,7 @@ Usage/help information for `pwconv` (illustrative; exact output varies by distri
 ```
 
 ### 171. `pwunconv`
-**संक्षिप्त जानकारी:** the pwunconv command in Linux, which secures user passwords by moving them from the shadow file to the password file. Learn practical scenarios for using pwunconv to manage user permissions and enhance system security.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2313,7 +2313,7 @@ Usage/help information for `pwunconv` (illustrative; exact output varies by dist
 ```
 
 ### 172. `grpconv`
-**संक्षिप्त जानकारी:** the grpconv command in Linux, learn how to create and manage user groups, and synchronize group passwords with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2326,7 +2326,7 @@ Usage/help information for `grpconv` (illustrative; exact output varies by distr
 ```
 
 ### 173. `grpunconv`
-**संक्षिप्त जानकारी:** the grpunconv command in Linux, learn its purpose and syntax, and discover practical examples for removing groups from the system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2339,7 +2339,7 @@ Usage/help information for `grpunconv` (illustrative; exact output varies by dis
 ```
 
 ### 174. `newaliases`
-**संक्षिप्त जानकारी:** the newaliases command in Linux, learn how to create and manage email aliases, and troubleshoot alias configuration for effective email management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2352,7 +2352,7 @@ Usage/help information for `newaliases` (illustrative; exact output varies by di
 ```
 
 ### 175. `users`
-**संक्षिप्त जानकारी:** the Linux users command and learn how to manage user accounts, understand user privileges and permissions, and implement password policy and user management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2372,7 +2372,7 @@ Usage/help information for `users` (illustrative; exact output varies by distrib
 **Commands 176–243 (68 commands)**
 
 ### 176. `ping`
-**संक्षिप्त जानकारी:** the ping command in Linux, learn how to use it for local and remote network troubleshooting, and gain practical experience with various ping command options.
+**संक्षिप्त जानकारी:** network host reachable छ कि छैन जाँच गर्छ।
 
 **Example:**
 ```bash
@@ -2385,7 +2385,7 @@ ping -c 4 8.8.8.8
 ```
 
 ### 177. `netstat`
-**संक्षिप्त जानकारी:** the netstat command, a powerful network troubleshooting tool. Learn how to analyze network connections, statistics, and diagnose network issues on Linux systems.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2398,7 +2398,7 @@ LISTEN ... :22 ...
 ```
 
 ### 178. `ifconfig`
-**संक्षिप्त जानकारी:** the ifconfig command in Linux, learn its syntax and options, and discover practical examples to configure network interfaces.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2412,7 +2412,7 @@ ip addr  # modern replacement for ifconfig
 ```
 
 ### 179. `ssh`
-**संक्षिप्त जानकारी:** how to use the SSH command to securely connect to remote Linux servers, transfer files, and more. Explore practical examples and master the essential skills for remote system administration.
+**संक्षिप्त जानकारी:** remote Linux server मा सुरक्षित रूपमा login गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2425,7 +2425,7 @@ user@server.example.com's password:
 ```
 
 ### 180. `scp`
-**संक्षिप्त जानकारी:** how to use the scp command to securely copy files and directories between local and remote hosts in Linux. Explore practical examples and understand the command's key features.
+**संक्षिप्त जानकारी:** SSH प्रयोग गरेर file सुरक्षित रूपमा copy गर्छ।
 
 **Example:**
 ```bash
@@ -2438,7 +2438,7 @@ file.txt 100% 12B ...
 ```
 
 ### 181. `ftp`
-**संक्षिप्त जानकारी:** the Linux ftp command with practical examples, including connecting to an FTP server, transferring files and directories, and understanding the basics of File Transfer Protocol.
+**संक्षिप्त जानकारी:** FTP server सँग file transfer गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2451,7 +2451,7 @@ Connected to ftp.example.com.
 ```
 
 ### 182. `wget`
-**संक्षिप्त जानकारी:** how to use the powerful wget command to download files from the internet. Explore practical examples and automate file downloads with wget scripting.
+**संक्षिप्त जानकारी:** Internet बाट file download गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2465,7 +2465,7 @@ file.txt 100%
 ```
 
 ### 183. `curl`
-**संक्षिप्त जानकारी:** the versatile curl command in Linux, learn how to fetch web page content, download files, and more through practical examples.
+**संक्षिप्त जानकारी:** URL मार्फत data request/transfer गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2479,7 +2479,7 @@ content-type: text/html
 ```
 
 ### 184. `traceroute`
-**संक्षिप्त जानकारी:** the traceroute command in Linux, learn how to trace the network path to a destination, and troubleshoot network issues using practical examples.
+**संक्षिप्त जानकारी:** network packet कुन-कुन route हुँदै गइरहेको छ देखाउँछ।
 
 **Example:**
 ```bash
@@ -2493,7 +2493,7 @@ traceroute example.com
 ```
 
 ### 185. `telnet`
-**संक्षिप्त जानकारी:** the telnet command in Linux, learn its purpose, syntax, and practical examples for troubleshooting network connectivity and remote server access.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2506,7 +2506,7 @@ Connected to example.com.
 ```
 
 ### 186. `nslookup`
-**संक्षिप्त जानकारी:** the nslookup command in Linux, learn how to perform basic DNS lookups, and troubleshoot DNS issues effectively.
+**संक्षिप्त जानकारी:** DNS बाट domain को जानकारी खोज्छ।
 
 **Example:**
 ```bash
@@ -2520,7 +2520,7 @@ Address: 93.184.216.34
 ```
 
 ### 187. `dig`
-**संक्षिप्त जानकारी:** the powerful dig command in Linux, learn its syntax, and practice various use cases for DNS lookups and advanced network troubleshooting.
+**संक्षिप्त जानकारी:** DNS query र record को विस्तृत जानकारी निकाल्छ।
 
 **Example:**
 ```bash
@@ -2533,7 +2533,7 @@ dig example.com A +short
 ```
 
 ### 188. `route`
-**संक्षिप्त जानकारी:** the Linux route command and learn how to configure static and dynamic routing using practical examples. Gain a deeper understanding of network routing and management.
+**संक्षिप्त जानकारी:** network routing table हेर्न वा व्यवस्थापन गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2546,7 +2546,7 @@ default via 192.168.1.1 dev eth0
 ```
 
 ### 189. `ip`
-**संक्षिप्त जानकारी:** the powerful ip command in Linux, learn to manage network interfaces, and troubleshoot network issues effectively.
+**संक्षिप्त जानकारी:** network interface, IP address र routing व्यवस्थापन गर्छ।
 
 **Example:**
 ```bash
@@ -2560,7 +2560,7 @@ ip addr show
 ```
 
 ### 190. `nmap`
-**संक्षिप्त जानकारी:** the powerful nmap command in Linux, learn its basic usage, and discover advanced techniques for network scanning and security analysis.
+**संक्षिप्त जानकारी:** network host र खुला ports/services जाँच गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2574,7 +2574,7 @@ PORT   STATE SERVICE
 ```
 
 ### 191. `ifup`
-**संक्षिप्त जानकारी:** how to use the ifup command to configure and troubleshoot network interfaces on Linux. Understand the purpose, syntax, and practical examples of this essential networking tool.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2587,7 +2587,7 @@ Usage/help information for `ifup` (illustrative; exact output varies by distribu
 ```
 
 ### 192. `ifdown`
-**संक्षिप्त जानकारी:** the ifdown command in Linux, learn how to disable network interfaces, and troubleshoot network issues effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2600,7 +2600,7 @@ Usage/help information for `ifdown` (illustrative; exact output varies by distri
 ```
 
 ### 193. `hostname`
-**संक्षिप्त जानकारी:** the Linux hostname command and learn how to change the hostname temporarily and permanently, with practical examples to enhance your system administration skills.
+**संक्षिप्त जानकारी:** system को hostname देखाउँछ।
 
 **Example:**
 ```bash
@@ -2613,7 +2613,7 @@ linux-server
 ```
 
 ### 194. `hostnamectl`
-**संक्षिप्त जानकारी:** the Linux hostnamectl command and learn how to display system hostname information, change the hostname temporarily and permanently with practical examples.
+**संक्षिप्त जानकारी:** system hostname र सम्बन्धित system information व्यवस्थापन गर्छ।
 
 **Example:**
 ```bash
@@ -2627,7 +2627,7 @@ Operating System: Ubuntu ...
 ```
 
 ### 195. `arp`
-**संक्षिप्त जानकारी:** the arp command in Linux, learn its purpose, syntax, and how to manage the ARP cache through practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2640,7 +2640,7 @@ ip neigh
 ```
 
 ### 196. `netcat`
-**संक्षिप्त जानकारी:** the versatile Linux netcat (nc) command and learn how to use it for server-client communication, file transfers, and other practical networking tasks.
+**संक्षिप्त जानकारी:** network connection परीक्षण र data transfer का लागि प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2653,7 +2653,7 @@ Connection to example.com 80 port [tcp/http] succeeded!
 ```
 
 ### 197. `nmcli`
-**संक्षिप्त जानकारी:** the power of the nmcli command in managing network interfaces, troubleshooting connectivity issues, and gaining a deeper understanding of Linux networking.
+**संक्षिप्त जानकारी:** NetworkManager मार्फत network configuration व्यवस्थापन गर्छ।
 
 **Example:**
 ```bash
@@ -2667,7 +2667,7 @@ eth0    ethernet  connected  Wired connection
 ```
 
 ### 198. `tcpdump`
-**संक्षिप्त जानकारी:** how to use the powerful tcpdump command to capture and analyze network traffic on Linux systems. Discover practical examples and techniques for filtering and monitoring network data.
+**संक्षिप्त जानकारी:** network packets capture र analyze गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -2680,7 +2680,7 @@ IP 192.168.1.2.12345 > 8.8.8.8.53: ...
 ```
 
 ### 199. `ss`
-**संक्षिप्त जानकारी:** the Linux ss command, learn its syntax, and discover practical examples to analyze network connections, socket statistics, and states.
+**संक्षिप्त जानकारी:** network connection र listening ports देखाउँछ।
 
 **Example:**
 ```bash
@@ -2694,7 +2694,7 @@ LISTEN ... :22
 ```
 
 ### 200. `iwconfig`
-**संक्षिप्त जानकारी:** the Linux iwconfig command, a powerful tool for configuring and troubleshooting wireless network interfaces. Learn how to set up wireless connections, manage network parameters, and diagnose connectivity issues.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2707,7 +2707,7 @@ Usage/help information for `iwconfig` (illustrative; exact output varies by dist
 ```
 
 ### 201. `ethtool`
-**संक्षिप्त जानकारी:** the ethtool command in Linux, a powerful tool for retrieving and modifying network interface settings. Learn how to use ethtool to diagnose and troubleshoot network issues.
+**संक्षिप्त जानकारी:** Ethernet interface को speed, duplex आदि जानकारी/setting हेर्छ।
 
 **Example:**
 ```bash
@@ -2721,7 +2721,7 @@ Duplex: full
 ```
 
 ### 202. `smbclient`
-**संक्षिप्त जानकारी:** the smbclient command in Linux, learn how to connect to Windows shares, list files and directories, and perform practical operations.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2734,7 +2734,7 @@ Sharename  Type  Comment
 ```
 
 ### 203. `smbstatus`
-**संक्षिप्त जानकारी:** the Linux smbstatus command, learn its purpose, options, and how to analyze active SMB connections and shared resources on your system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2747,7 +2747,7 @@ Usage/help information for `smbstatus` (illustrative; exact output varies by dis
 ```
 
 ### 204. `mailq`
-**संक्षिप्त जानकारी:** the Linux mailq command, learn how to interpret its output, and manage the mail queue effectively. Gain practical knowledge for efficient email server administration.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2760,7 +2760,7 @@ Mail queue is empty
 ```
 
 ### 205. `host`
-**संक्षिप्त जानकारी:** the hostname command, manage hostnames with hostnamectl, and customize the hostname on Ubuntu 22.04 in this practical Linux networking lab.
+**संक्षिप्त जानकारी:** domain र DNS सम्बन्धी जानकारी छिटो देखाउँछ।
 
 **Example:**
 ```bash
@@ -2773,7 +2773,7 @@ example.com has address 93.184.216.34
 ```
 
 ### 206. `arpwatch`
-**संक्षिप्त जानकारी:** the arpwatch command in Linux, learn how to install and use it to monitor network activity, and gain practical experience with real-world examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2786,7 +2786,7 @@ Usage/help information for `arpwatch` (illustrative; exact output varies by dist
 ```
 
 ### 207. `iftop`
-**संक्षिप्त जानकारी:** the iftop command in Linux, a powerful network monitoring tool that provides real-time analysis of network traffic. Learn how to use iftop for effective bandwidth monitoring and troubleshooting.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2799,7 +2799,7 @@ Interactive bandwidth monitor opens.
 ```
 
 ### 208. `iptables`
-**संक्षिप्त जानकारी:** the powerful iptables firewall tool in Linux. Learn to manage firewall rules, implement advanced configurations, and secure your network with practical examples.
+**संक्षिप्त जानकारी:** Linux firewall का packet filtering rules व्यवस्थापन गर्छ।
 
 **Example:**
 ```bash
@@ -2813,7 +2813,7 @@ Chain FORWARD (policy ACCEPT)
 ```
 
 ### 209. `iptables-save`
-**संक्षिप्त जानकारी:** the iptables-save command, which allows you to backup and restore iptables firewall rules. Learn how to use iptables-save for effective firewall management and automation.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2826,7 +2826,7 @@ Usage/help information for `iptables-save` (illustrative; exact output varies by
 ```
 
 ### 210. `tracepath`
-**संक्षिप्त जानकारी:** the tracepath command in Linux, learn how to trace the path to a remote host, and troubleshoot network issues using practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2840,7 +2840,7 @@ tracepath example.com
 ```
 
 ### 211. `uuname`
-**संक्षिप्त जानकारी:** the Linux uuname command and learn how to retrieve system information, combine it with other commands, and apply practical examples to enhance your Linux administration skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2853,7 +2853,7 @@ Usage/help information for `uuname` (illustrative; exact output varies by distri
 ```
 
 ### 212. `vnstat`
-**संक्षिप्त जानकारी:** the powerful Linux vnstat command for monitoring network traffic. Learn how to install, configure, and generate reports to visualize your network data.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2866,7 +2866,7 @@ Usage/help information for `vnstat` (illustrative; exact output varies by distri
 ```
 
 ### 213. `whois`
-**संक्षिप्त जानकारी:** the whois command in Linux, learn its syntax, and discover practical examples to retrieve domain information and customize the output.
+**संक्षिप्त जानकारी:** domain/IP registration सम्बन्धी सार्वजनिक जानकारी खोज्छ।
 
 **Example:**
 ```bash
@@ -2879,7 +2879,7 @@ Domain Name: EXAMPLE.COM
 ```
 
 ### 214. `apachectl`
-**संक्षिप्त जानकारी:** how to use the apachectl command to manage the Apache web server, including starting, stopping, restarting, and checking the server status.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2892,7 +2892,7 @@ Usage/help information for `apachectl` (illustrative; exact output varies by dis
 ```
 
 ### 215. `httpd`
-**संक्षिप्त जानकारी:** the Linux httpd command with practical examples, including installing Apache HTTP Server, starting, stopping, and restarting the server, and configuring virtual hosts.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2905,7 +2905,7 @@ Usage/help information for `httpd` (illustrative; exact output varies by distrib
 ```
 
 ### 216. `nc(netcat)`
-**संक्षिप्त जानकारी:** the powerful nc (netcat) command in Linux, learn how to use it for TCP and UDP server-client communication, and discover practical examples to enhance your networking skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2918,7 +2918,7 @@ Usage/help information for `nc(netcat)` (illustrative; exact output varies by di
 ```
 
 ### 217. `lpr`
-**संक्षिप्त जानकारी:** how to use the lpr command in Linux to print text files and PDF documents. Explore practical examples and understand the command's functionality.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2931,7 +2931,7 @@ Usage/help information for `lpr` (illustrative; exact output varies by distribut
 ```
 
 ### 218. `lpq`
-**संक्षिप्त जानकारी:** the lpq command in Linux, learn how to check the print queue status, and manage print jobs effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2944,7 +2944,7 @@ Usage/help information for `lpq` (illustrative; exact output varies by distribut
 ```
 
 ### 219. `lprm`
-**संक्षिप्त जानकारी:** the Linux lprm command for removing print jobs, including how to remove a specific job or all jobs. Learn practical examples to manage your print queue effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2957,7 +2957,7 @@ Usage/help information for `lprm` (illustrative; exact output varies by distribu
 ```
 
 ### 220. `lpd`
-**संक्षिप्त जानकारी:** the lpd command, a powerful tool for managing print jobs in Linux. Learn how to configure the lpd daemon, control print queues, and troubleshoot printing issues with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2970,7 +2970,7 @@ Usage/help information for `lpd` (illustrative; exact output varies by distribut
 ```
 
 ### 221. `tftp`
-**संक्षिप्त जानकारी:** the tftp command in Linux, learn how to configure a tftp server, and practice transferring files using the tftp client. Gain practical networking skills through hands-on examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2983,7 +2983,7 @@ Usage/help information for `tftp` (illustrative; exact output varies by distribu
 ```
 
 ### 222. `ncftp`
-**संक्षिप्त जानकारी:** how to use the ncftp command to connect to FTP servers, manage files and directories on the server, and perform various file transfer operations in a Linux environment.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -2996,7 +2996,7 @@ Usage/help information for `ncftp` (illustrative; exact output varies by distrib
 ```
 
 ### 223. `ftpshut`
-**संक्षिप्त जानकारी:** the ftpshut command in Linux, learn how to shut down the FTP server, and discover techniques for scheduling automatic FTP server shutdown.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3009,7 +3009,7 @@ Usage/help information for `ftpshut` (illustrative; exact output varies by distr
 ```
 
 ### 224. `ftpwho`
-**संक्षिप्त जानकारी:** the ftpwho command in Linux, learn its options, and analyze its output to monitor FTP server connections and user activities.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3022,7 +3022,7 @@ Usage/help information for `ftpwho` (illustrative; exact output varies by distri
 ```
 
 ### 225. `ftpcount`
-**संक्षिप्त जानकारी:** the ftpcount command in Linux, which allows you to monitor and count active FTP sessions on your system. Learn how to install, use, and interpret the output of this useful network utility.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3035,7 +3035,7 @@ Usage/help information for `ftpcount` (illustrative; exact output varies by dist
 ```
 
 ### 226. `uuto`
-**संक्षिप्त जानकारी:** the uuto command in Linux, learn how to send and receive files securely, and discover practical use cases for this powerful communication tool.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3048,7 +3048,7 @@ Usage/help information for `uuto` (illustrative; exact output varies by distribu
 ```
 
 ### 227. `uupick`
-**संक्षिप्त जानकारी:** how to use the uupick command to extract files from UUENCODE encoded emails and automate the process with shell scripts. Gain practical networking and communication skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3061,7 +3061,7 @@ Usage/help information for `uupick` (illustrative; exact output varies by distri
 ```
 
 ### 228. `uucico`
-**संक्षिप्त जानकारी:** the uucico command in Linux, learn how to configure it for file transfer, and execute remote connections and file transfers using practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3074,7 +3074,7 @@ Usage/help information for `uucico` (illustrative; exact output varies by distri
 ```
 
 ### 229. `uulog`
-**संक्षिप्त जानकारी:** the Linux uulog command, learn its syntax, and discover practical examples for viewing, filtering, and searching system log entries.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3087,7 +3087,7 @@ Usage/help information for `uulog` (illustrative; exact output varies by distrib
 ```
 
 ### 230. `dip`
-**संक्षिप्त जानकारी:** the dip command in Linux, learn how to establish dial-up connections, and troubleshoot connectivity issues with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3100,7 +3100,7 @@ Usage/help information for `dip` (illustrative; exact output varies by distribut
 ```
 
 ### 231. `minicom`
-**संक्षिप्त जानकारी:** the Linux minicom command with practical examples. Learn how to install, configure, and use minicom to connect to serial devices, customize settings, and enhance your user experience.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3113,7 +3113,7 @@ Usage/help information for `minicom` (illustrative; exact output varies by distr
 ```
 
 ### 232. `mesg`
-**संक्षिप्त जानकारी:** the Linux mesg command and learn how to send messages to terminal users, as well as restrict message receiving permissions. Gain practical knowledge for effective communication in a Linux environment.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3126,7 +3126,7 @@ Usage/help information for `mesg` (illustrative; exact output varies by distribu
 ```
 
 ### 233. `wall`
-**संक्षिप्त जानकारी:** the Linux wall command and its practical applications, including sending messages to all logged-in users and scheduling broadcast messages using cron.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3139,7 +3139,7 @@ Usage/help information for `wall` (illustrative; exact output varies by distribu
 ```
 
 ### 234. `write`
-**संक्षिप्त जानकारी:** the Linux write command and its practical applications, including sending messages to specific users and broadcasting messages to all logged-in users on the same system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3152,7 +3152,7 @@ Usage/help information for `write` (illustrative; exact output varies by distrib
 ```
 
 ### 235. `talk`
-**संक्षिप्त जानकारी:** the Linux talk command, learn how to send messages, and manage incoming requests. Gain practical networking and communication skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3165,7 +3165,7 @@ Usage/help information for `talk` (illustrative; exact output varies by distribu
 ```
 
 ### 236. `ytalk`
-**संक्षिप्त जानकारी:** the Linux ytalk command, a tool for real-time text-based communication between users on the same system. Learn how to install, initiate, and utilize advanced features of ytalk for efficient collaboration and remote...
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3178,7 +3178,7 @@ Usage/help information for `ytalk` (illustrative; exact output varies by distrib
 ```
 
 ### 237. `smbd`
-**संक्षिप्त जानकारी:** the smbd command, a key component of the Samba server, and learn how to configure, manage, and secure Samba shares on your Linux system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3191,7 +3191,7 @@ Usage/help information for `smbd` (illustrative; exact output varies by distribu
 ```
 
 ### 238. `testparm`
-**संक्षिप्त जानकारी:** the Linux testparm command, which verifies the syntax of Samba configuration files and analyzes Samba parameters. Learn practical examples to effectively manage and troubleshoot your Samba setup.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3204,7 +3204,7 @@ Usage/help information for `testparm` (illustrative; exact output varies by dist
 ```
 
 ### 239. `pppstats`
-**संक्षिप्त जानकारी:** the pppstats command in Linux, learn how to monitor PPP interface statistics, and analyze PPP connection performance with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3217,7 +3217,7 @@ Usage/help information for `pppstats` (illustrative; exact output varies by dist
 ```
 
 ### 240. `cu`
-**संक्षिप्त जानकारी:** the Linux cu command, a powerful tool for establishing remote connections and transferring files between systems. Learn practical examples and techniques to enhance your networking and communication skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3230,7 +3230,7 @@ Usage/help information for `cu` (illustrative; exact output varies by distributi
 ```
 
 ### 241. `getty`
-**संक्षिप्त जानकारी:** the getty command, a crucial tool for managing virtual terminals in Linux. Learn its purpose, various options, and how to configure and manage virtual terminals effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3243,7 +3243,7 @@ Usage/help information for `getty` (illustrative; exact output varies by distrib
 ```
 
 ### 242. `mingetty`
-**संक्षिप्त जानकारी:** the Linux mingetty command and its practical applications, including automatic login configuration and customizing the login prompt. Enhance your Linux system management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3256,7 +3256,7 @@ Usage/help information for `mingetty` (illustrative; exact output varies by dist
 ```
 
 ### 243. `tty`
-**संक्षिप्त जानकारी:** the Linux tty command and learn how to identify the current terminal device, manage terminal sessions, and apply practical examples to enhance your system administration skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3276,7 +3276,7 @@ Usage/help information for `tty` (illustrative; exact output varies by distribut
 **Commands 244–286 (43 commands)**
 
 ### 244. `mount`
-**संक्षिप्त जानकारी:** the Linux mount command with practical examples. Learn how to mount local and remote file systems, including NFS, to effectively manage storage and access data on your Linux system.
+**संक्षिप्त जानकारी:** filesystem वा storage device लाई directory मा जोड्छ।
 
 **Example:**
 ```bash
@@ -3289,7 +3289,7 @@ mount | head -n 2
 ```
 
 ### 245. `umount`
-**संक्षिप्त जानकारी:** the Linux umount command, learn how to unmount mounted file systems, and discover practical examples to manage your file system effectively.
+**संक्षिप्त जानकारी:** mounted filesystem लाई सुरक्षित रूपमा detach गर्छ।
 
 **Example:**
 ```bash
@@ -3302,7 +3302,7 @@ No output on success.
 ```
 
 ### 246. `fdisk`
-**संक्षिप्त जानकारी:** how to use the fdisk command in Linux to create, delete, and resize partitions. Explore practical examples and understand the command's syntax and purpose.
+**संक्षिप्त जानकारी:** disk partition हेर्न र व्यवस्थापन गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -3315,7 +3315,7 @@ Disk /dev/sda: 100 GiB
 ```
 
 ### 247. `mkfs`
-**संक्षिप्त जानकारी:** the mkfs command in Linux, learn how to create file systems on partitions and format USB drives, and gain practical experience with hands-on examples.
+**संक्षिप्त जानकारी:** partition मा नयाँ filesystem बनाउन प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -3329,7 +3329,7 @@ Filesystem created.
 ```
 
 ### 248. `fsck`
-**संक्षिप्त जानकारी:** the Linux fsck command, learn how to check filesystem integrity, and repair any issues using practical examples. Gain essential skills in disk and file system management.
+**संक्षिप्त जानकारी:** filesystem मा error जाँच तथा repair गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -3342,7 +3342,7 @@ clean, ... files, ... blocks
 ```
 
 ### 249. `dd`
-**संक्षिप्त जानकारी:** the powerful dd command in Linux, learn how to create backup images of USB drives, and restore them. Gain practical skills in disk and file system utilities.
+**संक्षिप्त जानकारी:** raw data copy/backup वा disk image बनाउन प्रयोग हुने शक्तिशाली command हो।
 
 **Example:**
 ```bash
@@ -3356,7 +3356,7 @@ dd if=/dev/zero of=test.img bs=1M count=10
 ```
 
 ### 250. `e2fsck`
-**संक्षिप्त जानकारी:** the e2fsck command in Linux, learn how to check and repair corrupted Ext4 file systems, and perform dry runs to fix errors automatically.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3369,7 +3369,7 @@ clean, ...
 ```
 
 ### 251. `tune2fs`
-**संक्षिप्त जानकारी:** the tune2fs command, a powerful tool for managing ext2/ext3/ext4 file systems. Learn how to modify filesystem behavior, backup and restore metadata, and optimize disk performance.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3383,7 +3383,7 @@ Filesystem volume name ...
 ```
 
 ### 252. `hdparm`
-**संक्षिप्त जानकारी:** the hdparm command in Linux, learn how to measure disk performance, and optimize disk configurations for improved system performance.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3396,7 +3396,7 @@ Timing cached reads: ... MB/sec
 ```
 
 ### 253. `fdformat`
-**संक्षिप्त जानकारी:** the fdformat command in Linux, learn how to format a floppy disk, and troubleshoot any issues that may arise during the process.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3409,7 +3409,7 @@ Usage/help information for `fdformat` (illustrative; exact output varies by dist
 ```
 
 ### 254. `parted`
-**संक्षिप्त जानकारी:** the powerful parted command in Linux, learn to create, manage, resize, and delete partitions, and gain practical skills for disk and file system management.
+**संक्षिप्त जानकारी:** disk partition सिर्जना तथा व्यवस्थापन गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -3423,7 +3423,7 @@ Disk /dev/sda: 100GB
 ```
 
 ### 255. `blkid`
-**संक्षिप्त जानकारी:** the blkid command in Linux, a powerful tool for identifying filesystem types and querying disk attributes. Learn practical examples to enhance your system management skills.
+**संक्षिप्त जानकारी:** block device को UUID र filesystem type देखाउँछ।
 
 **Example:**
 ```bash
@@ -3436,7 +3436,7 @@ blkid /dev/sdb1
 ```
 
 ### 256. `mkswap`
-**संक्षिप्त जानकारी:** how to use the Linux mkswap command to create and manage swap files, which provide additional virtual memory for your system. Includes practical examples and step-by-step instructions.
+**संक्षिप्त जानकारी:** disk/file लाई swap area का रूपमा तयार गर्छ।
 
 **Example:**
 ```bash
@@ -3449,7 +3449,7 @@ Setting up swapspace version 1 ...
 ```
 
 ### 257. `swapon`
-**संक्षिप्त जानकारी:** how to effectively manage swap space in Linux using the swapon command. Explore practical examples for checking swap usage, creating, and enabling swap files.
+**संक्षिप्त जानकारी:** swap space सक्रिय गर्छ।
 
 **Example:**
 ```bash
@@ -3463,7 +3463,7 @@ NAME      TYPE SIZE USED PRIO
 ```
 
 ### 258. `swapoff`
-**संक्षिप्त जानकारी:** how to disable swap partitions and swap files using the swapoff command in Linux. Understand the purpose of swapoff and explore practical examples to manage swap space effectively.
+**संक्षिप्त जानकारी:** swap space निष्क्रिय गर्छ।
 
 **Example:**
 ```bash
@@ -3476,7 +3476,7 @@ No output on success.
 ```
 
 ### 259. `losetup`
-**संक्षिप्त जानकारी:** the Linux losetup command with practical examples. Learn how to create, attach, and detach loopback devices, a useful tool for working with disk images and file systems.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3489,7 +3489,7 @@ sudo losetup -a
 ```
 
 ### 260. `mkisofs`
-**संक्षिप्त जानकारी:** the mkisofs command, a powerful tool for creating ISO images on Linux. Learn how to create basic ISO images, customize them with directories and files, and gain practical experience through hands-on examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3502,7 +3502,7 @@ Usage/help information for `mkisofs` (illustrative; exact output varies by distr
 ```
 
 ### 261. `eject`
-**संक्षिप्त जानकारी:** the Linux eject command and learn how to use it to eject removable media devices and CD/DVD drives with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3515,7 +3515,7 @@ No output on success.
 ```
 
 ### 262. `lndir`
-**संक्षिप्त जानकारी:** the lndir command in Linux, learn how to create symbolic links, and manage them effectively. Discover practical examples to enhance your file system management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3528,7 +3528,7 @@ Usage/help information for `lndir` (illustrative; exact output varies by distrib
 ```
 
 ### 263. `mdadm`
-**संक्षिप्त जानकारी:** the power of the Linux mdadm command with this practical lab. Learn to create, manage, and monitor software RAID arrays, enhancing your system's storage and reliability.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3541,7 +3541,7 @@ ARRAY /dev/md0 metadata=1.2 name=...
 ```
 
 ### 264. `dumpe2fs`
-**संक्षिप्त जानकारी:** the Linux dumpe2fs command, which provides detailed information about an Ext2/Ext3/Ext4 filesystem. Learn how to retrieve metadata, analyze statistics, and gain a deeper understanding of your file system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3554,7 +3554,7 @@ Usage/help information for `dumpe2fs` (illustrative; exact output varies by dist
 ```
 
 ### 265. `sync`
-**संक्षिप्त जानकारी:** the sync command in Linux, learn how to synchronize file system data, and verify the effectiveness of the sync command through practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3567,7 +3567,7 @@ No output on success.
 ```
 
 ### 266. `badblocks`
-**संक्षिप्त जानकारी:** the badblocks command in Linux, learn how to scan disks for bad blocks, and discover techniques to repair damaged areas on your storage devices.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3581,7 +3581,7 @@ Pass completed, 0 bad blocks found.
 ```
 
 ### 267. `mlabel`
-**संक्षिप्त जानकारी:** the mlabel command in Linux, learn how to create and manage volume labels, and discover advanced options for disk and file system management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3594,7 +3594,7 @@ Usage/help information for `mlabel` (illustrative; exact output varies by distri
 ```
 
 ### 268. `mformat`
-**संक्षिप्त जानकारी:** the mformat command in Linux, learn how to create and format floppy disks, and discover advanced options for various use cases.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3607,7 +3607,7 @@ Usage/help information for `mformat` (illustrative; exact output varies by distr
 ```
 
 ### 269. `mpartition`
-**संक्षिप्त जानकारी:** how to use the mpartition command to create, resize, and delete partitions on Linux systems. Explore practical examples and understand the syntax and purpose of this essential disk management tool.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3620,7 +3620,7 @@ Usage/help information for `mpartition` (illustrative; exact output varies by di
 ```
 
 ### 270. `mdeltree`
-**संक्षिप्त जानकारी:** the mdeltree command in Linux, a powerful tool for recursively removing directories and handling symbolic links and permissions. Gain practical experience through step-by-step examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3633,7 +3633,7 @@ Usage/help information for `mdeltree` (illustrative; exact output varies by dist
 ```
 
 ### 271. `mdu`
-**संक्षिप्त जानकारी:** the mdu command in Linux, learn to measure disk usage, and exclude specific files and directories from the analysis.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3646,7 +3646,7 @@ Usage/help information for `mdu` (illustrative; exact output varies by distribut
 ```
 
 ### 272. `mcd`
-**संक्षिप्त जानकारी:** the mcd command in Linux, which allows you to create nested directories efficiently. Learn practical examples and how to combine mcd with other Linux commands for effective file management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3659,7 +3659,7 @@ Usage/help information for `mcd` (illustrative; exact output varies by distribut
 ```
 
 ### 273. `mmount`
-**संक्षिप्त जानकारी:** the Linux mmount command, its syntax, and practical examples of mounting file systems. Learn how to effectively manage disk and file system utilities on your Linux system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3672,7 +3672,7 @@ Usage/help information for `mmount` (illustrative; exact output varies by distri
 ```
 
 ### 274. `mbadblocks`
-**संक्षिप्त जानकारी:** how to use the Linux mbadblocks command to identify, repair, and manage bad blocks on your file system. Gain practical experience with real-world examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3685,7 +3685,7 @@ Usage/help information for `mbadblocks` (illustrative; exact output varies by di
 ```
 
 ### 275. `fsck.minix`
-**संक्षिप्त जानकारी:** the Linux fsck.minix command, learn how to check and repair Minix file systems, and discover practical examples of its usage.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3698,7 +3698,7 @@ Usage/help information for `fsck.minix` (illustrative; exact output varies by di
 ```
 
 ### 276. `mke2fs`
-**संक्षिप्त जानकारी:** the mke2fs command in Linux, learn how to create Ext4 filesystems, and customize filesystem parameters for your storage needs.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3711,7 +3711,7 @@ Creating filesystem with ...
 ```
 
 ### 277. `mkfs.ext2`
-**संक्षिप्त जानकारी:** the mkfs.ext2 command, which is used to create an ext2 file system on a partition. Learn how to format an ext2 file system with custom parameters for your specific needs.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3724,7 +3724,7 @@ Creating filesystem with ...
 ```
 
 ### 278. `mkfs.minix`
-**संक्षिप्त जानकारी:** the Linux mkfs.minix command and learn how to create, mount, and interact with Minix file systems. This lab provides practical examples to help you manage disk and file system utilities.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3737,7 +3737,7 @@ Usage/help information for `mkfs.minix` (illustrative; exact options vary by dis
 ```
 
 ### 279. `mkfs.msdos`
-**संक्षिप्त जानकारी:** the Linux mkfs.msdos command, learn how to create FAT32 file systems, and customize file system parameters for your storage needs.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3750,7 +3750,7 @@ mkfs.fat ...
 ```
 
 ### 280. `mkdosfs`
-**संक्षिप्त जानकारी:** how to use the mkdosfs command to create a DOS filesystem on a partition or format a USB drive. This lab covers the basics of the mkdosfs command and provides practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3763,7 +3763,7 @@ mkfs.fat ...
 ```
 
 ### 281. `mkbootdisk`
-**संक्षिप्त जानकारी:** how to use the mkbootdisk command to create a bootable USB drive for Linux systems. Explore practical examples and troubleshoot issues with the bootable USB drive.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3776,7 +3776,7 @@ Usage/help information for `mkbootdisk` (illustrative; exact output varies by di
 ```
 
 ### 282. `mkinitrd`
-**संक्षिप्त जानकारी:** the mkinitrd command in Linux, learn to create custom initramfs images, and troubleshoot kernel boot issues using practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3789,7 +3789,7 @@ Usage/help information for `mkinitrd` (illustrative; exact output varies by dist
 ```
 
 ### 283. `sfdisk`
-**संक्षिप्त जानकारी:** the sfdisk command in Linux, learn how to partition disks, and backup/restore partition tables with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3802,7 +3802,7 @@ Usage/help information for `sfdisk` (illustrative; exact output varies by distri
 ```
 
 ### 284. `fsck.ext2`
-**संक्षिप्त जानकारी:** the fsck.ext2 command in Linux, learn how to check and repair ext2 file systems, and perform forced file system checks with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3815,7 +3815,7 @@ Usage/help information for `fsck.ext2` (illustrative; exact output varies by dis
 ```
 
 ### 285. `symlinks`
-**संक्षिप्त जानकारी:** the power of symbolic links in Linux, learn how they differ from hard links, and discover practical use cases to enhance your file management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3828,7 +3828,7 @@ Usage/help information for `symlinks` (illustrative; exact output varies by dist
 ```
 
 ### 286. `cfdisk`
-**संक्षिप्त जानकारी:** the cfdisk command in Linux, a powerful tool for partitioning and managing disk drives. Learn how to create, delete, and modify disk partitions effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3848,7 +3848,7 @@ Usage/help information for `cfdisk` (illustrative; exact output varies by distri
 **Commands 287–309 (23 commands)**
 
 ### 287. `tar`
-**संक्षिप्त जानकारी:** the tar command in Linux, learn to create and extract archives, and compress and decompress data with practical examples.
+**संक्षिप्त जानकारी:** धेरै file/folder लाई archive बनाउन वा खोल्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -3861,7 +3861,7 @@ No output on success.
 ```
 
 ### 288. `gzip`
-**संक्षिप्त जानकारी:** the gzip command in Linux, learn how to compress and decompress files, and discover advanced techniques for efficient data compression.
+**संक्षिप्त जानकारी:** file लाई gzip format मा compress गर्छ।
 
 **Example:**
 ```bash
@@ -3874,7 +3874,7 @@ No output; notes.txt.gz is created.
 ```
 
 ### 289. `gunzip`
-**संक्षिप्त जानकारी:** the gunzip command in Linux, learn how to decompress gzipped files, and recursively decompress directories with practical examples.
+**संक्षिप्त जानकारी:** gzip compressed file खोल्छ।
 
 **Example:**
 ```bash
@@ -3887,7 +3887,7 @@ No output; notes.txt is restored.
 ```
 
 ### 290. `zip`
-**संक्षिप्त जानकारी:** the versatile zip command in Linux, learn how to create and extract zip archives, and discover techniques for compressing and encrypting files.
+**संक्षिप्त जानकारी:** file/folder लाई ZIP archive मा compress गर्छ।
 
 **Example:**
 ```bash
@@ -3900,7 +3900,7 @@ adding: notes.txt (stored 0%)
 ```
 
 ### 291. `unzip`
-**संक्षिप्त जानकारी:** how to use the unzip command in Linux to extract files from compressed ZIP archives, including password- protected ones.
+**संक्षिप्त जानकारी:** ZIP archive खोल्छ।
 
 **Example:**
 ```bash
@@ -3914,7 +3914,7 @@ Archive: backup.zip
 ```
 
 ### 292. `bzip2`
-**संक्षिप्त जानकारी:** the bzip2 compression utility in Linux, learn how to compress and decompress files, and discover advanced bzip2 options and techniques.
+**संक्षिप्त जानकारी:** file लाई bzip2 format मा compress गर्छ।
 
 **Example:**
 ```bash
@@ -3927,7 +3927,7 @@ No output; notes.txt.bz2 is created.
 ```
 
 ### 293. `bunzip2`
-**संक्षिप्त जानकारी:** how to use the Linux bunzip2 command to extract and decompress compressed files. Explore practical examples and understand the command's syntax and purpose.
+**संक्षिप्त जानकारी:** bzip2 compressed file खोल्छ।
 
 **Example:**
 ```bash
@@ -3940,7 +3940,7 @@ No output; notes.txt is restored.
 ```
 
 ### 294. `compress`
-**संक्षिप्त जानकारी:** the Linux compress command, learn how to compress and decompress files, and discover advanced options for efficient data compression.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3953,7 +3953,7 @@ Usage/help information for `compress` (illustrative; exact output varies by dist
 ```
 
 ### 295. `uncompress`
-**संक्षिप्त जानकारी:** how to use the uncompress command in Linux to decompress Gzipped files. Understand the purpose of the command and troubleshoot compression and decompression issues.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3966,7 +3966,7 @@ Usage/help information for `uncompress` (illustrative; exact output varies by di
 ```
 
 ### 296. `cpio`
-**संक्षिप्त जानकारी:** the cpio command in Linux, learn its syntax, and practice creating and extracting archives with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3979,7 +3979,7 @@ find . -print | cpio -ov > archive.cpio
 ```
 
 ### 297. `ar`
-**संक्षिप्त जानकारी:** the Linux ar command for creating, managing, and manipulating static libraries. Learn how to build, extract, and list the contents of static libraries through practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -3992,7 +3992,7 @@ No output on success.
 ```
 
 ### 298. `rar`
-**संक्षिप्त जानकारी:** the rar command in Linux with practical examples. Learn how to install the rar package, create and extract rar archives, and manage them with advanced options.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4005,7 +4005,7 @@ Usage/help information for `rar` (illustrative; exact output varies by distribut
 ```
 
 ### 299. `unrar`
-**संक्षिप्त जानकारी:** the Linux unrar command and learn how to extract single and multi- part RAR archives on Ubuntu 22.04. Gain practical experience with this essential file compression and archiving tool.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4018,7 +4018,7 @@ Usage/help information for `unrar` (illustrative; exact output varies by distrib
 ```
 
 ### 300. `zcat`
-**संक्षिप्त जानकारी:** the versatile zcat command in Linux, which allows you to decompress and view gzipped files without extracting them. Learn practical examples and how to combine zcat with other commands.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4031,7 +4031,7 @@ Hello Linux
 ```
 
 ### 301. `zless`
-**संक्षिप्त जानकारी:** the zless command in Linux, a powerful tool for viewing compressed files. Learn its syntax, options, and practical examples to enhance your compression and archiving skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4044,7 +4044,7 @@ Usage/help information for `zless` (illustrative; exact output varies by distrib
 ```
 
 ### 302. `zdiff`
-**संक्षिप्त जानकारी:** the zdiff command in Linux, a powerful tool for comparing compressed files. Learn its syntax, practical examples, and troubleshooting techniques to effectively manage compressed data.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4057,7 +4057,7 @@ Usage/help information for `zdiff` (illustrative; exact output varies by distrib
 ```
 
 ### 303. `zgrep`
-**संक्षिप्त जानकारी:** the zgrep command in Linux, learn how to decompress and search compressed files, and combine zgrep with other commands for efficient data processing.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4070,7 +4070,7 @@ Usage/help information for `zgrep` (illustrative; exact output varies by distrib
 ```
 
 ### 304. `zipinfo`
-**संक्षिप्त जानकारी:** the powerful zipinfo command in Linux, learn its options, and analyze the contents of zip files with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4083,7 +4083,7 @@ Usage/help information for `zipinfo` (illustrative; exact output varies by distr
 ```
 
 ### 305. `bzcat`
-**संक्षिप्त जानकारी:** the bzcat command in Linux, a powerful tool for decompressing gzipped files. Learn how to use bzcat with practical examples and combine it with other Linux commands.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4096,7 +4096,7 @@ Hello Linux
 ```
 
 ### 306. `bzdiff`
-**संक्षिप्त जानकारी:** the bzdiff command in Linux, which allows you to compare compressed files. Learn how to use bzdiff for effective file comparison and discover advanced options to enhance your workflow.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4109,7 +4109,7 @@ Usage/help information for `bzdiff` (illustrative; exact output varies by distri
 ```
 
 ### 307. `bzgrep`
-**संक्षिप्त जानकारी:** how to use the bzgrep command to search for patterns in compressed files, and combine it with other Linux commands for advanced searches.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4122,7 +4122,7 @@ Usage/help information for `bzgrep` (illustrative; exact output varies by distri
 ```
 
 ### 308. `bzless`
-**संक्षिप्त जानकारी:** the bzless command, a powerful tool for navigating compressed text files. Learn how to utilize bzless options to efficiently view and navigate bzip2-compressed content.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4135,7 +4135,7 @@ Usage/help information for `bzless` (illustrative; exact output varies by distri
 ```
 
 ### 309. `bzmore`
-**संक्षिप्त जानकारी:** the bzmore command in Linux, a tool for viewing compressed text files. Learn its functionality and practical examples to enhance your compression and archiving skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4155,7 +4155,7 @@ Usage/help information for `bzmore` (illustrative; exact output varies by distri
 **Commands 310–333 (24 commands)**
 
 ### 310. `kill`
-**संक्षिप्त जानकारी:** the Linux kill command, learn how to terminate processes, and discover advanced options for managing processes effectively.
+**संक्षिप्त जानकारी:** PID प्रयोग गरेर process बन्द गर्न signal पठाउँछ।
 
 **Example:**
 ```bash
@@ -4168,7 +4168,7 @@ No output on success.
 ```
 
 ### 311. `pkill`
-**संक्षिप्त जानकारी:** the pkill command in Linux, learn how to terminate processes by name or ID, and gain practical experience with real-world examples.
+**संक्षिप्त जानकारी:** नाम वा pattern का आधारमा process बन्द गर्छ।
 
 **Example:**
 ```bash
@@ -4181,7 +4181,7 @@ No output on success.
 ```
 
 ### 312. `killall`
-**संक्षिप्त जानकारी:** the Linux killall command, learn how to kill processes by name or user, and gain practical experience with real- world examples.
+**संक्षिप्त जानकारी:** दिइएको नामका process हरू बन्द गर्छ।
 
 **Example:**
 ```bash
@@ -4194,7 +4194,7 @@ No output on success.
 ```
 
 ### 313. `nice`
-**संक्षिप्त जानकारी:** the Linux nice command and learn how to adjust process priority for optimal system performance. Discover practical examples to enhance your process management skills.
+**संक्षिप्त जानकारी:** process को CPU scheduling priority सुरु गर्दा परिवर्तन गर्छ।
 
 **Example:**
 ```bash
@@ -4207,7 +4207,7 @@ Command runs with adjusted priority.
 ```
 
 ### 314. `renice`
-**संक्षिप्त जानकारी:** the Linux renice command to adjust process priority, with practical examples showcasing its usage and benefits in process management.
+**संक्षिप्त जानकारी:** चलिरहेको process को priority परिवर्तन गर्छ।
 
 **Example:**
 ```bash
@@ -4220,7 +4220,7 @@ renice 10 -p 1234
 ```
 
 ### 315. `jobs`
-**संक्षिप्त जानकारी:** the Linux jobs command, learn to manage background processes, and discover practical examples to enhance your process management skills.
+**संक्षिप्त जानकारी:** हालको shell का background jobs देखाउँछ।
 
 **Example:**
 ```bash
@@ -4233,7 +4233,7 @@ jobs
 ```
 
 ### 316. `fg`
-**संक्षिप्त जानकारी:** the Linux fg command and learn how to bring background processes to the foreground, manage multiple background processes, and optimize your workflow with practical examples.
+**संक्षिप्त जानकारी:** background job लाई foreground मा ल्याउँछ।
 
 **Example:**
 ```bash
@@ -4246,7 +4246,7 @@ fg %1
 ```
 
 ### 317. `bg`
-**संक्षिप्त जानकारी:** the Linux bg command, learn how to suspend and move foreground processes to the background, and manage background processes effectively.
+**संक्षिप्त जानकारी:** stopped job लाई background मा चलाउँछ।
 
 **Example:**
 ```bash
@@ -4259,7 +4259,7 @@ bg %1
 ```
 
 ### 318. `pgrep`
-**संक्षिप्त जानकारी:** the pgrep command in Linux, a powerful tool for searching and monitoring processes by name. Learn practical examples to enhance your process management skills.
+**संक्षिप्त जानकारी:** process को नाम/PID खोज्छ।
 
 **Example:**
 ```bash
@@ -4272,7 +4272,7 @@ pgrep sshd
 ```
 
 ### 319. `nohup`
-**संक्षिप्त जानकारी:** how to use the nohup command to run long-running processes in the background, even after you log out of your terminal. Explore practical examples and understand the purpose of this powerful Linux tool.
+**संक्षिप्त जानकारी:** terminal बन्द भएपछि पनि command चलिरहने बनाउँछ।
 
 **Example:**
 ```bash
@@ -4285,7 +4285,7 @@ nohup: ignoring input and appending output to 'nohup.out'
 ```
 
 ### 320. `disown`
-**संक्षिप्त जानकारी:** the disown command in Linux, learn how to detach running processes from the shell, and manage their output effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4298,7 +4298,7 @@ Usage/help information for `disown` (illustrative; exact output varies by distri
 ```
 
 ### 321. `screen`
-**संक्षिप्त जानकारी:** the powerful screen command in Linux, learn to create and manage multiple terminal sessions, and discover practical examples to boost your process management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4311,7 +4311,7 @@ Usage/help information for `screen` (illustrative; exact output varies by distri
 ```
 
 ### 322. `tmux`
-**संक्षिप्त जानकारी:** the powerful tmux command-line tool for managing and controlling multiple terminal sessions on a Linux system. Learn how to navigate, manage, and customize tmux for enhanced productivity.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4324,7 +4324,7 @@ Interactive tmux session opens.
 ```
 
 ### 323. `strace`
-**संक्षिप्त जानकारी:** the powerful strace command in Linux, learn how to trace system calls, and debug processes effectively with practical examples.
+**संक्षिप्त जानकारी:** program ले गर्ने system calls trace गर्छ।
 
 **Example:**
 ```bash
@@ -4338,7 +4338,7 @@ openat(...)
 ```
 
 ### 324. `ltrace`
-**संक्षिप्त जानकारी:** the ltrace command in Linux, which allows you to trace system calls and library calls, helping you identify potential issues and optimize application performance.
+**संक्षिप्त जानकारी:** program ले प्रयोग गर्ने library calls trace गर्छ।
 
 **Example:**
 ```bash
@@ -4351,7 +4351,7 @@ libc calls ...
 ```
 
 ### 325. `skill`
-**संक्षिप्त जानकारी:** the Linux skill command and its practical applications in process management. Learn to manage files, use redirection and pipes, and automate tasks with shell scripting.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4364,7 +4364,7 @@ Usage/help information for `skill` (illustrative; exact output varies by distrib
 ```
 
 ### 326. `psnice`
-**संक्षिप्त जानकारी:** the psnice command in Linux, learn how to adjust process priority, and discover practical use cases for managing system processes efficiently.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4377,7 +4377,7 @@ Usage/help information for `psnice` (illustrative; exact output varies by distri
 ```
 
 ### 327. `at`
-**संक्षिप्त जानकारी:** the Linux file system, manage files and directories, and understand permissions through practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4390,7 +4390,7 @@ Usage/help information for `at` (illustrative; exact output varies by distributi
 ```
 
 ### 328. `batch`
-**संक्षिप्त जानकारी:** the power of the Linux batch command through practical examples. Automate repetitive tasks, utilize conditional statements, and leverage loops to streamline your workflow.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4403,7 +4403,7 @@ Usage/help information for `batch` (illustrative; exact output varies by distrib
 ```
 
 ### 329. `atd`
-**संक्षिप्त जानकारी:** the Linux atd command for scheduling one-time tasks, learn how to monitor and control scheduled tasks, and gain practical experience with real- world examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4416,7 +4416,7 @@ Usage/help information for `atd` (illustrative; exact output varies by distribut
 ```
 
 ### 330. `atq`
-**संक्षिप्त जानकारी:** the atq command in Linux, which allows you to list and manage scheduled jobs. Learn how to view, remove, and work with cron jobs effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4429,7 +4429,7 @@ Usage/help information for `atq` (illustrative; exact output varies by distribut
 ```
 
 ### 331. `atrm`
-**संक्षिप्त जानकारी:** the atrm command in Linux, which allows you to remove scheduled tasks. Learn how to troubleshoot and manage your system's scheduled tasks effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4442,7 +4442,7 @@ Usage/help information for `atrm` (illustrative; exact output varies by distribu
 ```
 
 ### 332. `chrt`
-**संक्षिप्त जानकारी:** the Linux chrt command, which allows you to adjust the real-time priority and scheduling policies of processes, with practical examples to enhance your process management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4455,7 +4455,7 @@ Usage/help information for `chrt` (illustrative; exact output varies by distribu
 ```
 
 ### 333. `setsid`
-**संक्षिप्त जानकारी:** the setsid command in Linux, learn how to detach processes from the current session, and run background processes effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4475,7 +4475,7 @@ Usage/help information for `setsid` (illustrative; exact output varies by distri
 **Commands 334–491 (158 commands)**
 
 ### 334. `crontab`
-**संक्षिप्त जानकारी:** the Linux crontab command and learn how to schedule recurring tasks. Discover practical examples to enhance your system management skills.
+**संक्षिप्त जानकारी:** निश्चित समयमा स्वचालित command/script चलाउने schedule बनाउँछ।
 
 **Example:**
 ```bash
@@ -4488,7 +4488,7 @@ crontab -l
 ```
 
 ### 335. `systemctl`
-**संक्षिप्त जानकारी:** the systemctl command, a powerful tool for managing system services in Linux. Learn how to start, stop, enable, and disable services, as well as configure automatic service startup.
+**संक्षिप्त जानकारी:** systemd service सुरु, रोक, restart र status व्यवस्थापन गर्छ।
 
 **Example:**
 ```bash
@@ -4502,7 +4502,7 @@ systemctl status ssh
 ```
 
 ### 336. `service`
-**संक्षिप्त जानकारी:** the Linux service command, learn how to manage system services, and troubleshoot service issues with practical examples.
+**संक्षिप्त जानकारी:** service व्यवस्थापनका लागि पुरानो/compatibility interface हो।
 
 **Example:**
 ```bash
@@ -4516,7 +4516,7 @@ sudo service ssh status
 ```
 
 ### 337. `chkconfig`
-**संक्षिप्त जानकारी:** the chkconfig command in Linux, learn how to configure service startup behavior, and manage service startup levels with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4529,7 +4529,7 @@ Usage/help information for `chkconfig` (illustrative; exact output varies by dis
 ```
 
 ### 338. `update-rc.d`
-**संक्षिप्त जानकारी:** how to use the update-rc.d command to configure services to start automatically at boot, manage service startup priorities, and gain practical experience with real-world examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4542,7 +4542,7 @@ Usage/help information for `update-rc.d` (illustrative; exact output varies by d
 ```
 
 ### 339. `timedatectl`
-**संक्षिप्त जानकारी:** the timedatectl command in Linux, learn how to manage system date and time, configure time zone and NTP settings, and gain practical experience through hands-on examples.
+**संक्षिप्त जानकारी:** system date, time र timezone व्यवस्थापन गर्छ।
 
 **Example:**
 ```bash
@@ -4556,7 +4556,7 @@ Time zone: Asia/Kathmandu
 ```
 
 ### 340. `locale`
-**संक्षिप्त जानकारी:** the Linux locale command and its practical applications. Learn how to understand locales, examine available locales, and change the system locale to observe its impact.
+**संक्षिप्त जानकारी:** हालको language, character encoding र locale settings देखाउँछ।
 
 **Example:**
 ```bash
@@ -4570,7 +4570,7 @@ LC_TIME=en_US.UTF-8
 ```
 
 ### 341. `localectl`
-**संक्षिप्त जानकारी:** the localectl command in Linux, which allows you to manage system locale settings, customize keyboard layouts, and configure keymaps effectively.
+**संक्षिप्त जानकारी:** system-wide locale र keyboard settings व्यवस्थापन गर्छ।
 
 **Example:**
 ```bash
@@ -4583,7 +4583,7 @@ System Locale: LANG=en_US.UTF-8
 ```
 
 ### 342. `ulimit`
-**संक्षिप्त जानकारी:** the ulimit command in Linux, learn to adjust resource limits for processes, and discover practical examples to optimize system performance.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4597,7 +4597,7 @@ max locked memory ...
 ```
 
 ### 343. `alias`
-**संक्षिप्त जानकारी:** the power of the Linux alias command and learn how to create, manage, and persist custom command shortcuts for improved productivity and efficiency.
+**संक्षिप्त जानकारी:** लामो command का लागि छोटो नाम बनाउँछ।
 
 **Example:**
 ```bash
@@ -4610,7 +4610,7 @@ total ...
 ```
 
 ### 344. `unalias`
-**संक्षिप्त जानकारी:** how to use the unalias command in Linux to temporarily disable aliases and manage them effectively in the terminal.
+**संक्षिप्त जानकारी:** बनाइएको alias हटाउँछ।
 
 **Example:**
 ```bash
@@ -4623,7 +4623,7 @@ No output on success.
 ```
 
 ### 345. `export`
-**संक्षिप्त जानकारी:** the power of the Linux export command with practical examples. Learn how to set environment variables, understand its purpose, and apply it effectively in your system configuration and settings.
+**संक्षिप्त जानकारी:** environment variable लाई child processes मा उपलब्ध गराउँछ।
 
 **Example:**
 ```bash
@@ -4636,7 +4636,7 @@ production
 ```
 
 ### 346. `set`
-**संक्षिप्त जानकारी:** the Linux set command, learn how to modify shell variables, manage environment variables, and apply practical examples to enhance your system configuration and settings.
+**संक्षिप्त जानकारी:** shell variables र settings हेर्न/सेट गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -4650,7 +4650,7 @@ BASH_VERSION=...
 ```
 
 ### 347. `unset`
-**संक्षिप्त जानकारी:** the unset command in Linux, learn how to unset environment variables and shell functions, and apply practical examples to enhance your system configuration and settings.
+**संक्षिप्त जानकारी:** environment variable हटाउँछ।
 
 **Example:**
 ```bash
@@ -4663,7 +4663,7 @@ No output on success.
 ```
 
 ### 348. `env`
-**संक्षिप्त जानकारी:** the env command in Linux, learn how to modify environment variables, and execute commands with custom environments for improved system configuration and settings.
+**संक्षिप्त जानकारी:** environment variables हेर्न वा environment सहित command चलाउन प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -4676,7 +4676,7 @@ APP_ENV=production
 ```
 
 ### 349. `sysctl`
-**संक्षिप्त जानकारी:** the sysctl command in Linux, learn how to modify kernel parameters, and persist configuration changes across reboots. Gain practical knowledge for system administration and optimization.
+**संक्षिप्त जानकारी:** kernel parameters हेर्न वा परिवर्तन गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -4689,7 +4689,7 @@ net.ipv4.ip_forward = 0
 ```
 
 ### 350. `modprobe`
-**संक्षिप्त जानकारी:** how to use the modprobe command to load and remove kernel modules in Linux, with practical examples to enhance your system configuration and settings.
+**संक्षिप्त जानकारी:** kernel module load वा unload गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -4702,7 +4702,7 @@ No output on success.
 ```
 
 ### 351. `lsmod`
-**संक्षिप्त जानकारी:** the Linux lsmod command, which displays information about loaded kernel modules. Learn how to load and unload kernel modules, and understand the purpose and output of the lsmod command.
+**संक्षिप्त जानकारी:** हाल load भएका kernel modules देखाउँछ।
 
 **Example:**
 ```bash
@@ -4716,7 +4716,7 @@ loop ...
 ```
 
 ### 352. `insmod`
-**संक्षिप्त जानकारी:** the insmod command in Linux, learn how to compile and insert kernel modules, and gain practical experience with real-world examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4729,7 +4729,7 @@ Usage/help information for `insmod` (illustrative; exact options vary by distrib
 ```
 
 ### 353. `rmmod`
-**संक्षिप्त जानकारी:** the Linux rmmod command and learn how to remove kernel modules effectively. Discover practical scenarios and examples to enhance your system configuration and settings.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4742,7 +4742,7 @@ Usage/help information for `rmmod` (illustrative; exact options vary by distribu
 ```
 
 ### 354. `depmod`
-**संक्षिप्त जानकारी:** the purpose of the depmod command, understand the dependency tree of kernel modules, and troubleshoot module dependencies using practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4755,7 +4755,7 @@ Usage/help information for `depmod` (illustrative; exact output varies by distri
 ```
 
 ### 355. `lspci`
-**संक्षिप्त जानकारी:** the lspci command in Linux, learn its purpose, understand its options and flags, and identify PCI devices on your system with practical examples.
+**संक्षिप्त जानकारी:** PCI hardware devices को जानकारी देखाउँछ।
 
 **Example:**
 ```bash
@@ -4769,7 +4769,7 @@ lspci | head -n 2
 ```
 
 ### 356. `hwclock`
-**संक्षिप्त जानकारी:** the Linux hwclock command, learn how to synchronize system time with hardware clock, and adjust the hardware clock manually for effective system time management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4782,7 +4782,7 @@ sudo hwclock --show
 ```
 
 ### 357. `setserial`
-**संक्षिप्त जानकारी:** the Linux setserial command and learn how to configure serial port settings, identify port information, and troubleshoot serial communication issues.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4795,7 +4795,7 @@ Usage/help information for `setserial` (illustrative; exact output varies by dis
 ```
 
 ### 358. `edquota`
-**संक्षिप्त जानकारी:** the Linux edquota command and learn how to manage user disk quotas, enable disk quota on a filesystem, and understand the concept of disk quota.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4808,7 +4808,7 @@ Usage/help information for `edquota` (illustrative; exact output varies by distr
 ```
 
 ### 359. `quota`
-**संक्षिप्त जानकारी:** the Linux quota command and learn how to set, monitor, and manage disk quota usage for users on your system. Gain practical knowledge for effective storage management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4821,7 +4821,7 @@ Usage/help information for `quota` (illustrative; exact output varies by distrib
 ```
 
 ### 360. `quotaon`
-**संक्षिप्त जानकारी:** the Linux quotaon command for managing disk quotas. Learn how to enable, monitor, and manage user disk quotas on your file system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4834,7 +4834,7 @@ Usage/help information for `quotaon` (illustrative; exact output varies by distr
 ```
 
 ### 361. `quotaoff`
-**संक्षिप्त जानकारी:** how to disable disk quotas on a Linux file system using the quotaoff command. Understand the basics of disk quotas and their practical applications.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4847,7 +4847,7 @@ Usage/help information for `quotaoff` (illustrative; exact output varies by dist
 ```
 
 ### 362. `quotacheck`
-**संक्षिप्त जानकारी:** the Linux quotacheck command with practical examples. Learn how to install the quota package, enable quota on a filesystem, and use the quotacheck command to check quota information.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4860,7 +4860,7 @@ Usage/help information for `quotacheck` (illustrative; exact output varies by di
 ```
 
 ### 363. `repquota`
-**संक्षिप्त जानकारी:** the repquota command in Linux, learn how to retrieve disk quota information for users, and manage disk quota limits for multiple users.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4873,7 +4873,7 @@ Usage/help information for `repquota` (illustrative; exact output varies by dist
 ```
 
 ### 364. `chroot`
-**संक्षिप्त जानकारी:** the chroot command in Linux, learn how to create a chroot environment, and manage processes and file systems within the isolated environment.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4886,7 +4886,7 @@ Usage/help information for `chroot` (illustrative; exact output varies by distri
 ```
 
 ### 365. `dircolors`
-**संक्षिप्त जानकारी:** the Linux dircolors command and learn how to customize directory and file colors, manage configuration files, and enhance your command-line experience.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4899,7 +4899,7 @@ Usage/help information for `dircolors` (illustrative; exact output varies by dis
 ```
 
 ### 366. `loadkeys`
-**संक्षिप्त जानकारी:** the Linux loadkeys command and learn how to change and customize your keyboard layout. Discover practical examples to enhance your system configuration and settings.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4912,7 +4912,7 @@ Usage/help information for `loadkeys` (illustrative; exact output varies by dist
 ```
 
 ### 367. `modinfo`
-**संक्षिप्त जानकारी:** the Linux modinfo command, which provides detailed information about kernel modules. Learn how to use modinfo to troubleshoot module issues and optimize system configuration.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4925,7 +4925,7 @@ Usage/help information for `modinfo` (illustrative; exact output varies by distr
 ```
 
 ### 368. `setleds`
-**संक्षिप्त जानकारी:** how to use the setleds command to modify keyboard LED states, and automate LED state changes with shell scripts for efficient system configuration.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4938,7 +4938,7 @@ Usage/help information for `setleds` (illustrative; exact output varies by distr
 ```
 
 ### 369. `showkey`
-**संक्षिप्त जानकारी:** the Linux showkey command, learn how to capture keyboard input, and analyze the output for system configuration and settings.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4951,7 +4951,7 @@ Usage/help information for `showkey` (illustrative; exact output varies by distr
 ```
 
 ### 370. `stty`
-**संक्षिप्त जानकारी:** the stty command in Linux, learn how to modify terminal settings, and discover practical examples to enhance your system configuration skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4964,7 +4964,7 @@ Usage/help information for `stty` (illustrative; exact output varies by distribu
 ```
 
 ### 371. `zdump`
-**संक्षिप्त जानकारी:** the Linux zdump command, which displays time zone information. Learn its syntax, understand timezone data, and see practical examples of its usage.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4977,7 +4977,7 @@ Usage/help information for `zdump` (illustrative; exact output varies by distrib
 ```
 
 ### 372. `cron`
-**संक्षिप्त जानकारी:** the powerful cron service in Linux, learn how to schedule and manage cron jobs, and configure notifications and logging for effective system maintenance.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -4990,7 +4990,7 @@ Usage/help information for `cron` (illustrative; exact output varies by distribu
 ```
 
 ### 373. `aumix`
-**संक्षिप्त जानकारी:** how to use the aumix command to adjust audio settings on your Ubuntu 22.04 system, including controlling master volume, muting and unmuting audio channels.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5003,7 +5003,7 @@ Usage/help information for `aumix` (illustrative; exact output varies by distrib
 ```
 
 ### 374. `clock`
-**संक्षिप्त जानकारी:** the Linux clock command and learn how to display the current date and time, as well as set the system clock using practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5016,7 +5016,7 @@ Usage/help information for `clock` (illustrative; exact output varies by distrib
 ```
 
 ### 375. `lilo`
-**संक्षिप्त जानकारी:** the lilo command, a powerful Linux boot loader, through practical examples. Learn how to configure lilo, troubleshoot issues, and enhance your system's boot process.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5029,7 +5029,7 @@ Usage/help information for `lilo` (illustrative; exact output varies by distribu
 ```
 
 ### 376. `ntsysv`
-**संक्षिप्त जानकारी:** the ntsysv command in Linux, a powerful tool for configuring and managing system services. Learn how to use ntsysv to control runlevels and enable/disable services for efficient system administration.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5042,7 +5042,7 @@ Usage/help information for `ntsysv` (illustrative; exact output varies by distri
 ```
 
 ### 377. `rdate`
-**संक्षिप्त जानकारी:** the Linux rdate command and learn how to synchronize your system time with remote NTP servers. Automate time synchronization using cron for reliable and consistent timekeeping.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5055,7 +5055,7 @@ Usage/help information for `rdate` (illustrative; exact output varies by distrib
 ```
 
 ### 378. `resize`
-**संक्षिप्त जानकारी:** how to resize partitions and LVM volumes using the Linux resize command. Explore practical examples and step-by- step instructions to effectively manage storage space on your Linux system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5068,7 +5068,7 @@ Usage/help information for `resize` (illustrative; exact output varies by distri
 ```
 
 ### 379. `sndconfig`
-**संक्षिप्त जानकारी:** the sndconfig command in Linux, learn how to configure sound card settings, and troubleshoot sound issues effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5081,7 +5081,7 @@ Usage/help information for `sndconfig` (illustrative; exact output varies by dis
 ```
 
 ### 380. `setconsole`
-**संक्षिप्त जानकारी:** the setconsole command in Linux, which allows you to modify the system console device and redirect console output to a file. Learn how to effectively manage your Linux system's console settings.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5094,7 +5094,7 @@ Usage/help information for `setconsole` (illustrative; exact output varies by di
 ```
 
 ### 381. `apmd`
-**संक्षिप्त जानकारी:** the Linux apmd command and learn how to monitor battery status, configure automated power management, and optimize your system's power efficiency.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5107,7 +5107,7 @@ Usage/help information for `apmd` (illustrative; exact output varies by distribu
 ```
 
 ### 382. `fbset`
-**संक्षिप्त जानकारी:** the fbset command in Linux, learn how to adjust screen resolution and depth, and customize display settings for optimal performance. Package Management
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5120,7 +5120,7 @@ Usage/help information for `fbset` (illustrative; exact output varies by distrib
 ```
 
 ### 383. `rpm`
-**संक्षिप्त जानकारी:** the powerful rpm command in Linux, learn how to install, manage, query, and verify RPM packages, and gain practical experience through hands-on examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5133,7 +5133,7 @@ Usage/help information for `rpm` (illustrative; exact output varies by distribut
 ```
 
 ### 384. `apt-get`
-**संक्षिप्त जानकारी:** how to effectively use the apt-get command in Linux for package management, including installing, updating, removing, and cleaning up packages.
+**संक्षिप्त जानकारी:** Ubuntu/Debian package management को command-line tool हो।
 
 **Example:**
 ```bash
@@ -5146,7 +5146,7 @@ Reading package lists... Done
 ```
 
 ### 385. `dpkg`
-**संक्षिप्त जानकारी:** the dpkg command in Linux, learn to install and manage packages, and troubleshoot package installation issues. Gain practical experience in package management using this essential Linux tool.
+**संक्षिप्त जानकारी:** Debian package install, remove र जानकारी व्यवस्थापन गर्छ।
 
 **Example:**
 ```bash
@@ -5160,7 +5160,7 @@ Desired=Unknown/Install/Remove/Purge
 ```
 
 ### 386. `yum`
-**संक्षिप्त जानकारी:** the powerful yum package manager in Linux. Learn how to install, update, and remove packages using practical examples. Enhance your system management skills with this comprehensive lab.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5173,7 +5173,7 @@ Usage/help information for `yum` (illustrative; exact output varies by distribut
 ```
 
 ### 387. `apt`
-**संक्षिप्त जानकारी:** the apt command in Linux, learn how to install, update, search, and remove packages using practical examples.
+**संक्षिप्त जानकारी:** Ubuntu/Debian मा package install, update र manage गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5187,7 +5187,7 @@ Reading package lists... Done
 ```
 
 ### 388. `aptitude`
-**संक्षिप्त जानकारी:** the aptitude package manager in Linux, learn how to search, install, upgrade, and remove packages, and gain practical experience with real-world examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5200,7 +5200,7 @@ Usage/help information for `aptitude` (illustrative; exact output varies by dist
 ```
 
 ### 389. `pacman`
-**संक्षिप्त जानकारी:** the pacman package manager in Linux, learn how to install, update, search, and remove packages using practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5213,7 +5213,7 @@ Usage/help information for `pacman` (illustrative; exact output varies by distri
 ```
 
 ### 390. `zypper`
-**संक्षिप्त जानकारी:** the zypper command, a powerful package management tool for SUSE-based Linux distributions. Learn how to install, update, search, and remove packages using zypper with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5226,7 +5226,7 @@ Usage/help information for `zypper` (illustrative; exact output varies by distri
 ```
 
 ### 391. `emerge`
-**संक्षिप्त जानकारी:** the powerful emerge command in Linux, learn how to install packages, update and upgrade your system with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5239,7 +5239,7 @@ Usage/help information for `emerge` (illustrative; exact output varies by distri
 ```
 
 ### 392. `dnf`
-**संक्षिप्त जानकारी:** the powerful dnf command in Linux, learn how to install, update, manage packages and dependencies, and leverage package groups for efficient package management. Scripting and Programming
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5252,7 +5252,7 @@ Usage/help information for `dnf` (illustrative; exact output varies by distribut
 ```
 
 ### 393. `snap`
-**संक्षिप्त जानकारी:** the power of the Snap package manager in Linux. Learn how to install, update, and manage Snap packages through practical examples, enhancing your Linux package management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5265,7 +5265,7 @@ Name  Version  Rev  Tracking  Publisher
 ```
 
 ### 394. `flatpak`
-**संक्षिप्त जानकारी:** the Flatpak package management tool for Linux, learn how to install and manage Flatpak applications, and customize Flatpak environments for your specific needs.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5278,7 +5278,7 @@ Name  Application ID  Version
 ```
 
 ### 395. `bash`
-**संक्षिप्त जानकारी:** the power of Linux bash commands with practical examples. Learn essential file system navigation, file and directory manipulation, and data searching and filtering techniques.
+**संक्षिप्त जानकारी:** Bash shell चलाउन वा script execute गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5291,7 +5291,7 @@ GNU bash, version 5.x
 ```
 
 ### 396. `sh`
-**संक्षिप्त जानकारी:** the power of the Linux sh command through practical examples. Learn shell scripting basics, utilize variables and parameters, and implement conditional statements and loops to automate tasks efficiently.
+**संक्षिप्त जानकारी:** POSIX shell चलाउन प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5304,7 +5304,7 @@ hello
 ```
 
 ### 397. `perl`
-**संक्षिप्त जानकारी:** how to use Perl programming language in Linux, including executing Perl scripts and practical examples for file manipulation.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5317,7 +5317,7 @@ perl -e 'print 2+3'
 ```
 
 ### 398. `python`
-**संक्षिप्त जानकारी:** Python's built-in functions, string manipulation, and file/directory management in Linux through practical examples.
+**संक्षिप्त जानकारी:** Python program/script चलाउन प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5330,7 +5330,7 @@ python3 -c 'print(2+3)'
 ```
 
 ### 399. `gcc`
-**संक्षिप्त जानकारी:** the GCC compiler, learn to compile C programs, and discover optimization flags for efficient code.
+**संक्षिप्त जानकारी:** C program compile गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5343,7 +5343,7 @@ gcc (Ubuntu ...) 13.x
 ```
 
 ### 400. `g++`
-**संक्षिप्त जानकारी:** the basics of the g++ command, compile a simple C++ program, and explore compiler flags and optimization techniques in this practical Linux programming lab.
+**संक्षिप्त जानकारी:** C++ program compile गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5356,7 +5356,7 @@ g++ (Ubuntu ...) 13.x
 ```
 
 ### 401. `make`
-**संक्षिप्त जानकारी:** the power of the make command in Linux, learn its syntax, and apply it to compile C programs with practical examples.
+**संक्षिप्त जानकारी:** Makefile अनुसार source code build/compile गर्छ।
 
 **Example:**
 ```bash
@@ -5369,7 +5369,7 @@ gcc ... -o app
 ```
 
 ### 402. `cmake`
-**संक्षिप्त जानकारी:** how to use the CMake tool to build and manage C++ projects on Linux. This lab covers installing CMake, creating a simple C++ project, and understanding different build configurations.
+**संक्षिप्त जानकारी:** software project को build configuration तयार गर्छ।
 
 **Example:**
 ```bash
@@ -5383,7 +5383,7 @@ cmake -S . -B build
 ```
 
 ### 403. `automake`
-**संक्षिप्त जानकारी:** the automake command in Linux, a tool for generating Makefiles. Learn how to create a basic automake project, customize configuration, and apply practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5396,7 +5396,7 @@ Usage/help information for `automake` (illustrative; exact output varies by dist
 ```
 
 ### 404. `autoconf`
-**संक्षिप्त जानकारी:** how to use the autoconf command to configure and build C programs, from simple to complex projects, with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5409,7 +5409,7 @@ Usage/help information for `autoconf` (illustrative; exact output varies by dist
 ```
 
 ### 405. `gdb`
-**संक्षिप्त जानकारी:** the power of the gdb debugger in Linux. Learn how to debug simple and multithreaded C programs, uncover bugs, and enhance your programming skills.
+**संक्षिप्त जानकारी:** program debugging गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5423,7 +5423,7 @@ GNU gdb ...
 ```
 
 ### 406. `ldd`
-**संक्षिप्त जानकारी:** the ldd command in Linux, learn how to identify dynamic dependencies of binaries, and troubleshoot missing dependencies for effective software management.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5437,7 +5437,7 @@ libc.so.6 => ...
 ```
 
 ### 407. `objdump`
-**संक्षिप्त जानकारी:** the powerful objdump command in Linux, learn its syntax, options, and analyze the output on a simple C program.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5451,7 +5451,7 @@ Idx Name Size ...
 ```
 
 ### 408. `nm`
-**संक्षिप्त जानकारी:** the Linux nm command, which displays symbol information for object files. Learn how to use nm to view executable symbols, filter results, and gain practical insights.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5464,7 +5464,7 @@ nm app | head
 ```
 
 ### 409. `readelf`
-**संक्षिप्त जानकारी:** the readelf command in Linux, learn how to analyze ELF file headers and sections, and gain practical experience with real-world examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5478,7 +5478,7 @@ ELF Header:
 ```
 
 ### 410. `strings`
-**संक्षिप्त जानकारी:** the Linux strings command and learn how to extract strings from binary, compressed, and encrypted files. Gain practical experience with real- world examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5491,7 +5491,7 @@ Hello Linux
 ```
 
 ### 411. `ctags`
-**संक्षिप्त जानकारी:** the power of the ctags command in Linux, learn how to generate tags for C/C++ projects, and navigate source code efficiently.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5504,7 +5504,7 @@ Usage/help information for `ctags` (illustrative; exact output varies by distrib
 ```
 
 ### 412. `cscope`
-**संक्षिप्त जानकारी:** the cscope command in Linux, a powerful tool for source code navigation and analysis. Learn how to install, understand the basics, and perform efficient code searches and navigation.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5517,7 +5517,7 @@ Usage/help information for `cscope` (illustrative; exact output varies by distri
 ```
 
 ### 413. `diff3`
-**संक्षिप्त जानकारी:** the diff3 command in Linux, learn how to merge conflicting files, and resolve conflicts in a three-way merge with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5530,7 +5530,7 @@ Usage/help information for `diff3` (illustrative; exact output varies by distrib
 ```
 
 ### 414. `svn`
-**संक्षिप्त जानकारी:** the power of the SVN command- line tool on Ubuntu 22.04. Learn how to install Subversion, initialize a local repository, and manage changes through commit, update, and revert operations.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5543,7 +5543,7 @@ M       file.txt
 ```
 
 ### 415. `git`
-**संक्षिप्त जानकारी:** the essential git commands for version control, including initializing a repository, adding and committing files, and managing branches. Gain practical experience with hands-on examples.
+**संक्षिप्त जानकारी:** source code version control व्यवस्थापन गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5557,7 +5557,7 @@ nothing to commit, working tree clean
 ```
 
 ### 416. `cvs`
-**संक्षिप्त जानकारी:** the Concurrent Versions System (CVS) command in Linux, learn how to create a repository, check out projects, and commit changes, with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5570,7 +5570,7 @@ Usage/help information for `cvs` (illustrative; exact output varies by distribut
 ```
 
 ### 417. `aclocal`
-**संक्षिप्त जानकारी:** the aclocal command in Linux, learn how to generate the aclocal.m4 file, and integrate it with Autoconf for effective build automation.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5583,7 +5583,7 @@ Usage/help information for `aclocal` (illustrative; exact output varies by distr
 ```
 
 ### 418. `autoheader`
-**संक्षिप्त जानकारी:** the autoheader command in Linux, learn its purpose, and discover practical examples to generate configuration header files.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5596,7 +5596,7 @@ Usage/help information for `autoheader` (illustrative; exact output varies by di
 ```
 
 ### 419. `autoreconf`
-**संक्षिप्त जानकारी:** the autoreconf command in Linux, learn its purpose, and apply it to a sample project. Gain hands-on experience in automating the build process for your software projects. Backup and Compression
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5609,7 +5609,7 @@ Usage/help information for `autoreconf` (illustrative; exact output varies by di
 ```
 
 ### 420. `bison`
-**संक्षिप्त जानकारी:** the bison command, a powerful tool for generating parsers in Linux. Learn how to create custom parsers, handle syntax errors, and apply bison in practical scenarios.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5622,7 +5622,7 @@ Usage/help information for `bison` (illustrative; exact output varies by distrib
 ```
 
 ### 421. `expect`
-**संक्षिप्त जानकारी:** the power of the expect command in Linux. Learn to automate SSH login, handle prompts, and write responsive scripts for various tasks.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5635,7 +5635,7 @@ Usage/help information for `expect` (illustrative; exact output varies by distri
 ```
 
 ### 422. `bzip2recover`
-**संक्षिप्त जानकारी:** the bzip2recover command, a powerful tool for recovering corrupted bzip2 files. Learn how to use it effectively with practical examples and advanced options.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5648,7 +5648,7 @@ Usage/help information for `bzip2recover` (illustrative; exact output varies by 
 ```
 
 ### 423. `uuencode`
-**संक्षिप्त जानकारी:** the uuencode command in Linux, learn how to encode and decode files, and discover practical use cases for this versatile tool in backup and compression workflows.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5661,7 +5661,7 @@ Usage/help information for `uuencode` (illustrative; exact output varies by dist
 ```
 
 ### 424. `uudecode`
-**संक्षिप्त जानकारी:** how to use the uudecode command in Linux to decode uuencoded files. Explore practical examples and understand the purpose of this useful tool for backup and compression tasks.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5674,7 +5674,7 @@ Usage/help information for `uudecode` (illustrative; exact output varies by dist
 ```
 
 ### 425. `gzexe`
-**संक्षिप्त जानकारी:** the gzexe command in Linux, learn how to compress and decompress executable files, and discover practical examples of its usage.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5687,7 +5687,7 @@ Usage/help information for `gzexe` (illustrative; exact output varies by distrib
 ```
 
 ### 426. `sum`
-**संक्षिप्त जानकारी:** the Linux sum command with practical examples, including basic summation operations and handling floating-point numbers. Gain proficiency in file checksum calculations and data verification.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5700,7 +5700,7 @@ Usage/help information for `sum` (illustrative; exact output varies by distribut
 ```
 
 ### 427. `md5sum`
-**संक्षिप्त जानकारी:** the md5sum command in Linux, learn how to generate and verify MD5 checksums for files, and ensure data integrity with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5713,7 +5713,7 @@ Usage/help information for `md5sum` (illustrative; exact output varies by distri
 ```
 
 ### 428. `dump`
-**संक्षिप्त जानकारी:** the Linux dump command for full system backups. Learn how to perform a complete system backup and restore data from the dump file, with practical examples. Miscellaneous Utilities
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5726,7 +5726,7 @@ Usage/help information for `dump` (illustrative; exact output varies by distribu
 ```
 
 ### 429. `restore`
-**संक्षिप्त जानकारी:** how to use the Linux restore command to recover specific files or entire directory structures from backup archives. Explore practical examples and understand the purpose and usage of this essential backup and...
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5739,7 +5739,7 @@ Usage/help information for `restore` (illustrative; exact output varies by distr
 ```
 
 ### 430. `rmt`
-**संक्षिप्त जानकारी:** the rmt command in Linux, learn how to backup and restore files, and automate backups using cron jobs. Enhance your system administration skills with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -5752,7 +5752,7 @@ Usage/help information for `rmt` (illustrative; exact output varies by distribut
 ```
 
 ### 431. `man`
-**संक्षिप्त जानकारी:** the powerful Linux man command, learn how to navigate man pages, and perform targeted searches to effectively utilize system documentation.
+**संक्षिप्त जानकारी:** command को विस्तृत manual/documentation हेर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5765,7 +5765,7 @@ Interactive manual page for ls opens.
 ```
 
 ### 432. `info`
-**संक्षिप्त जानकारी:** the Linux info command, its purpose, options, and practical examples to retrieve information about Linux commands and utilities.
+**संक्षिप्त जानकारी:** GNU programs को विस्तृत documentation हेर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5778,7 +5778,7 @@ GNU Info documentation opens.
 ```
 
 ### 433. `whatis`
-**संक्षिप्त जानकारी:** the Linux whatis command, its purpose, syntax, and practical use cases. Learn how to effectively utilize this utility to quickly retrieve information about commands and system components.
+**संक्षिप्त जानकारी:** command को छोटो अर्थ/description देखाउँछ।
 
 **Example:**
 ```bash
@@ -5791,7 +5791,7 @@ ls (1) - list directory contents
 ```
 
 ### 434. `apropos`
-**संक्षिप्त जानकारी:** the Linux apropos command, a powerful tool for searching man pages and finding relevant system commands. Learn how to perform basic searches, customize with regular expressions, and discover practical use cases.
+**संक्षिप्त जानकारी:** keyword का आधारमा सम्बन्धित manual pages खोज्छ।
 
 **Example:**
 ```bash
@@ -5805,7 +5805,7 @@ ss (8) - another utility...
 ```
 
 ### 435. `yes`
-**संक्षिप्त जानकारी:** the versatile Linux yes command and learn how to use it to generate repeated output, combine it with other commands, and automate various tasks.
+**संक्षिप्त जानकारी:** दिइएको text लगातार output गर्छ।
 
 **Example:**
 ```bash
@@ -5820,7 +5820,7 @@ y
 ```
 
 ### 436. `sleep`
-**संक्षिप्त जानकारी:** the Linux sleep command and its practical applications. Learn how to use sleep with time intervals and combine it with other commands for efficient task automation.
+**संक्षिप्त जानकारी:** निर्धारित समयसम्म command/script रोक्छ।
 
 **Example:**
 ```bash
@@ -5833,7 +5833,7 @@ No output; waits for 2 seconds.
 ```
 
 ### 437. `bc`
-**संक्षिप्त जानकारी:** the versatile Linux bc command and learn how to perform basic arithmetic operations, advanced calculations, and functions using practical examples.
+**संक्षिप्त जानकारी:** terminal बाट arithmetic calculation गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -5846,7 +5846,7 @@ echo '10/2' | bc
 ```
 
 ### 438. `clear`
-**संक्षिप्त जानकारी:** the clear command in Linux, learn how to clear the terminal screen, and automate the process with a Bash script. Enhance your command-line skills and improve your workflow.
+**संक्षिप्त जानकारी:** terminal screen सफा गर्छ।
 
 **Example:**
 ```bash
@@ -5859,7 +5859,7 @@ Terminal screen is cleared.
 ```
 
 ### 439. `reset`
-**संक्षिप्त जानकारी:** the Linux reset command and learn how to restore the terminal to a known state, troubleshoot terminal issues, and more with practical examples.
+**संक्षिप्त जानकारी:** terminal को अवस्था reset गर्छ।
 
 **Example:**
 ```bash
@@ -5872,7 +5872,7 @@ Terminal is reset.
 ```
 
 ### 440. `echo`
-**संक्षिप्त जानकारी:** the versatile echo command in Linux, learn its basic syntax, and discover practical examples for printing text, using variable substitution, and formatting output.
+**संक्षिप्त जानकारी:** दिइएको text वा variable को value terminal मा देखाउँछ।
 
 **Example:**
 ```bash
@@ -5885,7 +5885,7 @@ Hello Linux
 ```
 
 ### 441. `printf`
-**संक्षिप्त जानकारी:** the power of the printf command in Linux. Learn how to format output, print variables, and evaluate expressions using practical examples.
+**संक्षिप्त जानकारी:** format मिलाएर text/output देखाउँछ।
 
 **Example:**
 ```bash
@@ -5898,7 +5898,7 @@ Name: Prakash
 ```
 
 ### 442. `seq`
-**संक्षिप्त जानकारी:** the versatile seq command in Linux, learn how to generate numeric sequences, and customize them with step size and formatting.
+**संक्षिप्त जानकारी:** क्रमिक संख्याहरू output गर्छ।
 
 **Example:**
 ```bash
@@ -5915,7 +5915,7 @@ seq 1 5
 ```
 
 ### 443. `history`
-**संक्षिप्त जानकारी:** the powerful Linux history command and learn how to effectively manage and analyze command history for improved productivity and troubleshooting.
+**संक्षिप्त जानकारी:** पहिले चलाएका shell commands को इतिहास देखाउँछ।
 
 **Example:**
 ```bash
@@ -5930,7 +5930,7 @@ history | tail -n 3
 ```
 
 ### 444. `xargs`
-**संक्षिप्त जानकारी:** the power of the xargs command in Linux, learn how to execute commands with arguments, and combine it with other utilities for efficient workflows.
+**संक्षिप्त जानकारी:** input लाई command का arguments मा रूपान्तरण गर्छ।
 
 **Example:**
 ```bash
@@ -5944,7 +5944,7 @@ b
 ```
 
 ### 445. `factor`
-**संक्षिप्त जानकारी:** the Linux factor command, its purpose, syntax, and practical examples to gain a deeper understanding of this useful miscellaneous utility.
+**संक्षिप्त जानकारी:** संख्याको prime factors निकाल्छ।
 
 **Example:**
 ```bash
@@ -5957,7 +5957,7 @@ factor 12
 ```
 
 ### 446. `units`
-**संक्षिप्त जानकारी:** the versatile Linux units command and learn how to convert between different time units and perform arithmetic operations with practical examples.
+**संक्षिप्त जानकारी:** विभिन्न measurement units बीच conversion गर्छ।
 
 **Example:**
 ```bash
@@ -5970,7 +5970,7 @@ units '1 meter' 'centimeter'
 ```
 
 ### 447. `script`
-**संक्षिप्त जानकारी:** the power of shell scripting with this hands-on lab. Learn to write and execute simple scripts, use variables and command substitution, and implement conditional statements and loops for more complex tasks.
+**संक्षिप्त जानकारी:** terminal session लाई file मा record गर्छ।
 
 **Example:**
 ```bash
@@ -5983,7 +5983,7 @@ Script started, file is session.log
 ```
 
 ### 448. `scriptreplay`
-**संक्षिप्त जानकारी:** the scriptreplay command in Linux, which allows you to record and replay terminal sessions, with practical examples to enhance your system administration skills.
+**संक्षिप्त जानकारी:** record गरिएको terminal session पुनः चलाउँछ।
 
 **Example:**
 ```bash
@@ -5996,7 +5996,7 @@ Recorded terminal session is replayed.
 ```
 
 ### 449. `xdg-open`
-**संक्षिप्त जानकारी:** the versatile xdg-open command in Linux, which allows you to open files and directories with their default applications, and customize the default associations.
+**संक्षिप्त जानकारी:** file वा URL लाई system को default application मा खोल्छ।
 
 **Example:**
 ```bash
@@ -6009,7 +6009,7 @@ Default browser opens.
 ```
 
 ### 450. `poweroff`
-**संक्षिप्त जानकारी:** how to safely shut down your Linux system using the poweroff command, including practical examples and automating system shutdown with cron.
+**संक्षिप्त जानकारी:** system बन्द गर्छ।
 
 **Example:**
 ```bash
@@ -6022,7 +6022,7 @@ System powers off.
 ```
 
 ### 451. `access`
-**संक्षिप्त जानकारी:** the Linux access command and learn how to manage file permissions and ownership. Discover practical examples to enhance your Linux skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6035,7 +6035,7 @@ access file.txt
 ```
 
 ### 452. `accton`
-**संक्षिप्त जानकारी:** the Linux accton command and learn how to manage network interface configuration, troubleshoot network issues, and more with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6048,7 +6048,7 @@ Usage/help information for `accton` (illustrative; exact output varies by distri
 ```
 
 ### 453. `acpi`
-**संक्षिप्त जानकारी:** the Linux acpi command and its practical applications, including monitoring battery status and customizing acpi behavior. Gain a comprehensive understanding of this versatile utility.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6061,7 +6061,7 @@ Battery 0: Full, 100%
 ```
 
 ### 454. `acpid`
-**संक्षिप्त जानकारी:** the Linux acpid command, learn how to configure it to monitor power events, and create custom event handlers for practical applications.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6074,7 +6074,7 @@ Usage/help information for `acpid` (illustrative; exact output varies by distrib
 ```
 
 ### 455. `addr2line`
-**संक्षिप्त जानकारी:** the addr2line command in Linux, a powerful tool for resolving addresses to function names and source file locations. Learn its basic syntax, options, and practical use cases.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6087,7 +6087,7 @@ main at main.c:10
 ```
 
 ### 456. `agetty`
-**संक्षिप्त जानकारी:** the agetty command in Linux, learn how to configure it for serial console access, and manage user login processes effectively.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6100,7 +6100,7 @@ Usage/help information for `agetty` (illustrative; exact output varies by distri
 ```
 
 ### 457. `amixer`
-**संक्षिप्त जानकारी:** the amixer command, a powerful Linux utility for adjusting sound card mixer settings. Learn how to control master volume, manage specific sound channels, and apply practical examples to enhance your audio experience.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6113,7 +6113,7 @@ Mono: Playback 80 [80%] [on]
 ```
 
 ### 458. `aplay`
-**संक्षिप्त जानकारी:** the aplay command in Linux, learn how to install required packages, play audio files, and discover various command options and flags for audio manipulation.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6126,7 +6126,7 @@ card 0: ...
 ```
 
 ### 459. `aplaymidi`
-**संक्षिप्त जानकारी:** the aplaymidi command, a powerful Linux utility for playing MIDI files. Learn how to use it for basic playback, as well as advanced options for controlling MIDI devices.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6139,7 +6139,7 @@ Usage/help information for `aplaymidi` (illustrative; exact output varies by dis
 ```
 
 ### 460. `autoupdate`
-**संक्षिप्त जानकारी:** the power of automatic updates on Linux systems. Learn how to configure and manage automatic updates using the command line, ensuring your system stays secure and up-to-date.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6152,7 +6152,7 @@ Usage/help information for `autoupdate` (illustrative; exact output varies by di
 ```
 
 ### 461. `banner`
-**संक्षिप्त जानकारी:** the versatile banner command in Linux, learn how to display custom messages, and customize the appearance of your banners for various use cases.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6165,7 +6165,7 @@ Usage/help information for `banner` (illustrative; exact output varies by distri
 ```
 
 ### 462. `biff`
-**संक्षिप्त जानकारी:** the biff command in Linux, learn how to configure it to receive notifications, and customize the notification settings for enhanced productivity.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6178,7 +6178,7 @@ Usage/help information for `biff` (illustrative; exact output varies by distribu
 ```
 
 ### 463. `bzcmp`
-**संक्षिप्त जानकारी:** the bzcmp command in Linux, which allows you to compare compressed files. Learn how to use this utility effectively with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6191,7 +6191,7 @@ Usage/help information for `bzcmp` (illustrative; exact output varies by distrib
 ```
 
 ### 464. `case`
-**संक्षिप्त जानकारी:** the case command in Linux, learn its syntax and usage, and apply it to automate file management and backup operations.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6204,7 +6204,7 @@ Built-in shell command 'case'; output/behavior depends on the shell.
 ```
 
 ### 465. `cc`
-**संक्षिप्त जानकारी:** the versatile Linux cc command, learn its syntax, and compile C programs with practical examples. Discover compiler flags and optimization options to enhance your programming workflow.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6217,7 +6217,7 @@ Usage/help information for `cc` (illustrative; exact output varies by distributi
 ```
 
 ### 466. `chvt`
-**संक्षिप्त जानकारी:** the chvt command in Linux, which allows you to switch between virtual terminals. Learn practical examples and automate virtual terminal switching for enhanced productivity.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6230,7 +6230,7 @@ Usage/help information for `chvt` (illustrative; exact output varies by distribu
 ```
 
 ### 467. `cpp`
-**संक्षिप्त जानकारी:** the power of C++ programming in Linux, from compiling and running code to managing files and directories. Dive into practical examples and master essential Linux utilities for efficient C++ development.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6243,7 +6243,7 @@ cpp file.c | head
 ```
 
 ### 468. `cupsd`
-**संक्षिप्त जानकारी:** the CUPS printing system and learn how to manage printers using the cupsd command. Configure printer settings and gain practical experience with this essential Linux utility.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6256,7 +6256,7 @@ Usage/help information for `cupsd` (illustrative; exact output varies by distrib
 ```
 
 ### 469. `dc`
-**संक्षिप्त जानकारी:** the powerful dc command in Linux, a versatile calculator tool. Learn to perform basic arithmetic operations, handle advanced calculations, and leverage dc's capabilities for various computing tasks.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6269,7 +6269,7 @@ echo '10 2 / p' | dc
 ```
 
 ### 470. `dir`
-**संक्षिप्त जानकारी:** the Linux dir command and its practical applications for managing directories and files. Learn various options to customize directory listings and effectively navigate the file system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6282,7 +6282,7 @@ file.txt  notes.txt
 ```
 
 ### 471. `disable`
-**संक्षिप्त जानकारी:** the Linux disable command and learn how to disable services using practical examples. Understand the purpose and verify the disabled status of services.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6295,7 +6295,7 @@ Usage/help information for `disable` (illustrative; exact output varies by distr
 ```
 
 ### 472. `domainname`
-**संक्षिप्त जानकारी:** the Linux domainname command and learn how to set, display, and manage domain names across network interfaces with practical examples.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6308,7 +6308,7 @@ Usage/help information for `domainname` (illustrative; exact output varies by di
 ```
 
 ### 473. `dos2unix`
-**संक्षिप्त जानकारी:** how to use the dos2unix command to convert text files from DOS to Unix format. Explore practical examples and automate the conversion process with shell scripts.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6321,7 +6321,7 @@ dos2unix: converting file file.txt to Unix format...
 ```
 
 ### 474. `dosfsck`
-**संक्षिप्त जानकारी:** the Linux dosfsck command with practical examples. Learn how to check and repair errors on a FAT32 file system, and perform a thorough filesystem check and repair on a USB drive.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6334,7 +6334,7 @@ Usage/help information for `dosfsck` (illustrative; exact output varies by distr
 ```
 
 ### 475. `exec`
-**संक्षिप्त जानकारी:** the Linux exec command and its practical applications, including understanding the exec system call, executing external commands, and redirecting input/output.
+**संक्षिप्त जानकारी:** हालको shell process लाई अर्को command ले replace गरेर चलाउँछ।
 
 **Example:**
 ```bash
@@ -6347,7 +6347,7 @@ Built-in shell command 'exec'; output/behavior depends on the shell.
 ```
 
 ### 476. `fc`
-**संक्षिप्त जानकारी:** the fc command in Linux, which allows you to edit and reexecute previous commands. Learn how to customize its behavior for improved productivity.
+**संक्षिप्त जानकारी:** अघिल्लो shell commands edit र पुनः execute गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -6360,7 +6360,7 @@ Usage/help information for `fc` (illustrative; exact output varies by distributi
 ```
 
 ### 477. `fc-cache`
-**संक्षिप्त जानकारी:** the Linux fc-cache command and learn how to manage font caches effectively. Discover practical examples to update and troubleshoot font cache issues on your system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6373,7 +6373,7 @@ No output on success.
 ```
 
 ### 478. `fc-list`
-**संक्षिप्त जानकारी:** the fc-list command in Linux, which allows you to list all available fonts on your system, filter by family, style, and other attributes. Gain practical knowledge for font management and customization.
+**संक्षिप्त जानकारी:** system मा उपलब्ध fonts को सूची देखाउँछ।
 
 **Example:**
 ```bash
@@ -6386,7 +6386,7 @@ fc-list | head -n 2
 ```
 
 ### 479. `getent`
-**संक्षिप्त जानकारी:** the versatile getent command in Linux, learn how to retrieve user and group information, and discover practical examples to enhance your system administration skills.
+**संक्षिप्त जानकारी:** system databases बाट user, group, host आदि जानकारी निकाल्छ।
 
 **Example:**
 ```bash
@@ -6399,7 +6399,7 @@ root:x:0:0:root:/root:/bin/bash
 ```
 
 ### 480. `gs`
-**संक्षिप्त जानकारी:** the versatile gs command in Linux, learn to convert PDF files to various image formats, and optimize PDF files by reducing file size.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6412,7 +6412,7 @@ Usage/help information for `gs` (illustrative; exact output varies by distributi
 ```
 
 ### 481. `hash`
-**संक्षिप्त जानकारी:** the Linux hash command and learn how to calculate hashes of files and directories, as well as verify file integrity using hash checksums.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6425,7 +6425,7 @@ Usage/help information for `hash` (illustrative; exact output varies by distribu
 ```
 
 ### 482. `hexdump`
-**संक्षिप्त जानकारी:** the Linux hexdump command, a powerful tool for viewing and manipulating binary data. Learn how to use hexdump to analyze file contents, customize output, and gain insights into data structures.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6438,7 +6438,7 @@ hexdump -C hello.txt
 ```
 
 ### 483. `hostid`
-**संक्षिप्त जानकारी:** the Linux hostid command, learn how to retrieve the unique host identifier, and discover practical applications for this versatile utility.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6451,7 +6451,7 @@ a1b2c3d4
 ```
 
 ### 484. `iconv`
-**संक्षिप्त जानकारी:** the powerful iconv command in Linux, which enables seamless encoding conversion and handling of multilingual text. Learn practical examples to enhance your text processing capabilities.
+**संक्षिप्त जानकारी:** text encoding परिवर्तन गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -6464,7 +6464,7 @@ No output on success.
 ```
 
 ### 485. `import`
-**संक्षिप्त जानकारी:** the import command in Linux, learn how to import data from CSV files and Excel spreadsheets into database tables, and gain practical experience with this versatile utility.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6477,7 +6477,7 @@ Usage/help information for `import` (illustrative; exact output varies by distri
 ```
 
 ### 486. `install`
-**संक्षिप्त जानकारी:** how to install Linux packages using various commands like apt-get, apt, and Snap. Explore practical examples and gain proficiency in package management on your Linux system.
+**संक्षिप्त जानकारी:** file copy तथा permission सेट गर्न वा केही systems मा package installation सम्बन्धी काम गर्न प्रयोग हुन्छ।
 
 **Example:**
 ```bash
@@ -6491,7 +6491,7 @@ Setting up curl ...
 ```
 
 ### 487. `ipcrm`
-**संक्षिप्त जानकारी:** the Linux ipcrm command, which allows you to remove shared memory segments, message queues, and semaphores. Learn the command syntax, options, and practical examples to effectively manage IPC objects on your system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6504,7 +6504,7 @@ Usage/help information for `ipcrm` (illustrative; exact output varies by distrib
 ```
 
 ### 488. `ipcs`
-**संक्षिप्त जानकारी:** the Linux ipcs command, its purpose, and practical examples to analyze IPC resources and identify potential issues on your system.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6517,7 +6517,7 @@ Usage/help information for `ipcs` (illustrative; exact output varies by distribu
 ```
 
 ### 489. `pinky`
-**संक्षिप्त जानकारी:** the pinky command in Linux, learn its options and flags, and discover practical use cases to enhance your system management skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6530,7 +6530,7 @@ Usage/help information for `pinky` (illustrative; exact output varies by distrib
 ```
 
 ### 490. `ranlib`
-**संक्षिप्त जानकारी:** the Linux ranlib command, learn how to create and manage static libraries, and discover practical examples to enhance your system administration skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
@@ -6543,7 +6543,7 @@ No output on success.
 ```
 
 ### 491. `rev`
-**संक्षिप्त जानकारी:** the Linux rev command and learn how to reverse text in files, reverse lines, and apply practical examples to enhance your command-line skills.
+**संक्षिप्त जानकारी:** यस command को मुख्य काम सम्बन्धित system utility/service को काम व्यवस्थापन, जाँच वा सञ्चालन गर्नु हो। *(स्रोतमा दिइएको command description अनुसार।)*
 
 **Example:**
 ```bash
