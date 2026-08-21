@@ -1,95 +1,5 @@
-# 🐧 Linux Command Course
+## 🐧 नेपाली भाषामा Linux Commands सिक्ने Practical Course।
 
-नेपाली भाषामा Linux Commands सिक्ने Practical Course।
-
-## 📚 Course Content
-
-### 1. Basic File & Directory Operations
-- `pwd`
-- `ls`
-- `cd`
-- `mkdir`
-- `touch`
-- `cp`
-- `mv`
-- `rm`
-- ...
-
-### 2. Text Processing
-- `cat`
-- `grep`
-- `sed`
-- `awk`
-- `cut`
-- `sort`
-- `uniq`
-- ...
-
-### 3. System Monitoring
-- `ps`
-- `top`
-- `htop`
-- `free`
-- `df`
-- `du`
-- ...
-
-### 4. User & Permission
-- `sudo`
-- `su`
-- `whoami`
-- `id`
-- `chmod`
-- `chown`
-- ...
-
-### 5. Networking
-- `ip`
-- `ping`
-- `curl`
-- `wget`
-- `ssh`
-- `scp`
-- `ss`
-- ...
-
-### 6. Disk & Filesystem
-- `mount`
-- `umount`
-- `fdisk`
-- `mkfs`
-- `fsck`
-- `dd`
-- ...
-
-### 7. Compression & Archiving
-- `tar`
-- `gzip`
-- `gunzip`
-- `zip`
-- `unzip`
-- ...
-
-### 8. Process Management
-- `kill`
-- `pkill`
-- `jobs`
-- `bg`
-- `fg`
-- `nohup`
-- ...
-
-### 9. System Configuration
-- `systemctl`
-- `journalctl`
-- `crontab`
-- `timedatectl`
-- ...
-
-### 10. ⭐ Daily Use Commands
-दैनिक Linux/Ubuntu Server मा प्रयोग हुने practical commands।
-
----
 
 ## 🎯 Learning Goal
 
@@ -104,9 +14,7 @@
 - Logs हेर्न
 - SSH प्रयोग गर्न
 - Backup/archive बनाउन
-- Basic Linux administration गर्न
-
-सक्नेछ।
+- Basic Linux administration गर्न सक्नेछ।
 
 ## 📝 Format
 
@@ -116,15 +24,12 @@
 - नेपालीमा संक्षिप्त जानकारी
 - Syntax / Example
 - Sample Output
-- Practical Use
-
-समावेश गरिएको छ।
+- Practical Use समावेश गरिएको छ।
 
 ## 📌 कसरी प्रयोग गर्ने
 - `Command` = चलाउने command
 - `Example` = practical syntax
 - `Output` = सामान्य/illustrative परिणाम
-- ⚠️ `sudo`, `rm`, `dd`, `mkfs`, partition, firewall, user-management जस्ता commands production system मा सावधानीपूर्वक चलाउनुहोस्।
 
 ## 📚 Categories
 - [📁 Basic File and Directory Operations](#cat-1-52) — **52 commands**
