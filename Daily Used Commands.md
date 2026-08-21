@@ -1,6 +1,6 @@
 # Linux Daily Used Commands — Category-wise Nepali Guide (Table Format)
 
-> **नोट:** यो सूचीमा दैनिक जीवनमा सबैभन्दा धेरै प्रयोग हुने (commonly used) Linux commands मात्र categorywise table मा राखिएको छ। पूरा 491 commands को detail चाहिएमा मूल फाइल (`Linux_491_Commands...`) हेर्नुहोस्।
+> **नोट:** यो सूचीमा दैनिक जीवनमा सबैभन्दा धेरै प्रयोग हुने (commonly used) Linux commands मात्र categorywise table मा राखिएको छ। पूरा 491 commands को detail चाहिएमा मूल फाइल (`491-Linux-Commands-Nepali.md`) हेर्नुहोस्।
 
 ## 📚 Categories
 - [📁 File and Directory Operations](#file-directory)
@@ -176,4 +176,4 @@
 3. `Example` र `Output` हरू सिकाइका लागि illustrative छन्; वास्तविक output distro/version अनुसार फरक हुन सक्छ।
 
 ## 📖 Source
-मूल आधार: `Linux_491_Commands_Nepali_Category_Example_Output.md` फाइल — यसैबाट दैनिक चलाइने commands छानेर table format मा तयार गरिएको।
+मूल आधार: `491-Linux-Commands-Nepali.md` फाइल — यसैबाट दैनिक चलाइने commands छानेर table format मा तयार गरिएको।
